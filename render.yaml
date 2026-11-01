@@ -1,0 +1,35 @@
+services:
+  # Backend API Service
+  - type: web
+    name: medinova-backend
+    runtime: python
+    buildCommand: "cd backend && pip install -r requirements.txt"
+    startCommand: "cd backend && uvicorn app.main:app --host 0.0.0.0 --port $PORT"
+    envVars:
+      - key: PYTHON_VERSION
+        value: 3.11.0
+      - key: ENVIRONMENT
+        value: production
+      - key: HOST
+        value: 0.0.0.0
+      - key: PORT
+        fromService:
+          type: web
+          name: medinova-backend
+          property: port
+      - key: DEBUG
+        value: False
+      - key: LOG_LEVEL
+        value: INFO
+      # Add these in Render Dashboard (keep them secret):
+      # - MONGODB_URL
+      # - JWT_SECRET_KEY
+      # - JWT_REFRESH_SECRET_KEY
+      # - GEMINI_API_KEY
+      # - GOOGLE_CLIENT_ID
+      # - GOOGLE_CLIENT_SECRET
+      # - SMTP_USERNAME
+      # - SMTP_PASSWORD
+      # - CORS_ORIGINS (your Vercel frontend URL)
+      # - FRONTEND_URL (your Vercel frontend URL)
+    healthCheckPath: /api/v1/health
