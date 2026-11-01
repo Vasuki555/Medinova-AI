@@ -1,0 +1,14 @@
+831676002937.
+Patient: Carlos_M:_Rivera' DOB: 09/14/1990 MRN 038-884:19
+LAKEWOOD HOSPITAL
+Januaiy 30.2026
+SECTIONAMedicalHistoraz 
+'Yes_ X X 'X
+No;
+Asthma;Moderate Persistent (ICD:10:J45.40) Allergic Rhinitis (ICD-10: J30.9) ADHD: Combined Type'(ICD:1O:F90.2) Migraine wthout Aura (ICD-1O G43.009): Eczema L Atopic Dermatitis (ICD:10: L20.9)
+SECTION B: Current Medication;
+Yes X; X } EX;
+No'
+Fluticasone/Salmeterol 250/50 mcg  twice' daily FAlbuterol HFA 90 mcg_ZPRN every 4-6 hrst Montelukast 10 mg once daily (PM) ECetirizine 10 mg =once daily (PM Amphetamine salts XR 20mg once daily (AM): Topitamate 50 ng 'once daily (PM)
+'Carlos Rivera: Patient signature
+Carlos Rivera; Print name;

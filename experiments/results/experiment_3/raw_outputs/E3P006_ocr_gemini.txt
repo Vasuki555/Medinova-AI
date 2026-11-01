@@ -1,0 +1,2 @@
+**3. Abnormal or Important Values**
+        *   No readable or clear numerical values, test results, or measurements are present in the findings or impression sections because the text is garbled.

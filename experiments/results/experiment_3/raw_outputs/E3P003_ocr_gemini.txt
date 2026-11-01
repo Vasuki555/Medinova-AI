@@ -1,0 +1,4 @@
+Mucosa: Overlying mucosa is intact.
+        *   Necrosis: Not identified.
+        *   Immunohistochemistry Biomarkers:
+            *   CD1

@@ -1,0 +1,18 @@
+Here is a summary and plain-language explanation of the provided medical report.
+
+### 1. Report Summary
+* **Patient Name:** Olivia Chen
+* **Date of Birth:** 04/10/2023 (Age: 2)
+* **Gender:** Female
+* **Medical Record Number (MRN):** 6509823
+* **Date of Visit:** 06/23/2025
+* **Facility:** Children's Health Pavilion
+* **Healthcare Provider:** Dr. Sarah Miller, M.D. (Pediatrics)
+* **Reason for Visit:** 2-day history of fussiness, irritability, pulling at her left ear, low-grade fever, decreased appetite, and mild clear runny nose.
+
+---
+
+### 2. Key Findings
+* **History:** Two days of fussiness, irritability, left ear pulling, decreased appetite, and mild clear rhinorrhea (runny nose). Vaccinations are up to date, and there are no known sick contacts.
+* **Right Ear Exam:** The right eardrum (tympanic membrane) is pearly gray with a normal light reflex.
+* **Left Ear Exam:** The left eardrum is red (erythematous), bulging, missing its normal

@@ -1,0 +1,9 @@
+Experiment 2A — Clinical Information Preservation Proxy
+============================================================
+Documents analyzed: 328
+Unmatched OCR files: 0
+
+numbers: GT=10656, matched=4152, preservation=0.3896
+dates: GT=1063, matched=353, preservation=0.3321
+units: GT=2027, matched=439, preservation=0.2166
+measurements: GT=897, matched=122, preservation=0.1360

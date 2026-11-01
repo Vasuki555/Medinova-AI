@@ -1,0 +1,20 @@
+GENERALHOSPITAL Hosp}TAL_
+FilNamez  Maria CzDelgado Gender:[M [XIF[] Other_
+Date oiBirth MWPDANN 03/28/1972 Phone Number: (281 555*0376;
+Patient IDLMRN MRN007214 Todays Date:03/10/2026_
+Evital Signs} BPmHg) 118/74;_
+Pulse (bpm)] Resp rpm 68: 14;
+Temp (PHaz Spo2 (%) 98.6:
+Weight (Wb)z 152;
+Height (in) 64
+EMedicalHistoryzai [Hypertension _ [XlAsthma [X]High Cholesterol: L[]Cancer_
+Diabetes (Uype]) COPD} Thyroid Disorder Depression/Anxiety
+Diabetes (Uype IV) Heart Disease [] Arthritis . Other:
+Medications; Medication Name Levothyroxine Fluticasone inhaler: Rosuvvastatin:_ Cetirizine
+Dosaz 75 mcg 220 mcg 10 mg 10mg
+Freduencyz Once daily (tasting): Tice daily Once daily (PN) Once daily (PM)
+EAllergies Alleigen Latex Codeine
+Reactionjype Contact dermatitis; Nausea vomitingi
+[Reasonfonvisz Annualwellessvisit Asthmawellcontrolled pep patientTepomt Thvroidgunctiontecheckand pane ordered
+Provider Signature:  [ucknu 'A O zuye
+Date: . 03/0/2026

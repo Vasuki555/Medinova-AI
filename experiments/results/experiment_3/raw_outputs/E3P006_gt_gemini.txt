@@ -1,0 +1,12 @@
+Here is an explanation of your medical report based strictly on the text provided:
+
+---
+
+### 1. Report Summary
+* **Patient Name:** John Smith
+* **Date of Birth:** 05/20/1965
+* **Gender:** Male
+* **MRN:** 789012
+* **Accession #:** A583920-25
+* **Visit #:** 456-789
+* **Date of Visit / Dictation:** 06/18/

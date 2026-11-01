@@ -1,0 +1,15 @@
+Patient; Maria C: Delgado: DOB: 03/28/1972: MRN:.007-214-55
+831676002937
+LAKEWOOD; HOSPITAL
+March 10,2026-
+32Z4SECTION A:MedicalHisto
+Yes;
+No
+Rheumatoid Aithritis (ICD-1O: M06.9)  Hypothyroidism (ICD-10.E03.92 Major Depressive Disorder (ICD-1O:F32.1)_ Gastroesophageal Reflux Disease (ICD:10:K21.0) Osteoporosis (ICD:-1O:M81:O) Anemia;Iron Deficiency (ICD-1OD5O.9) Fibromyalgia (ICD-10:M79.3)
+'
+SECTION Bcurrent Medication
+Yes X; X; X: X X ' X
+No'
+Methotrexate 15.mg once weekly: Folic Acid:1 ig__once daily_ Levothyroxine;75 _cg once daily(fasting) Sertraline 50.mg_ once daily (AM): Omeprazole 20 ig} once daily before meals;' Alendronate 70ing) Aonce weekly Hydroxychloroquine 2O0mg twice daily
+Waria 'Pelgado Patient signature
+Maria_ Delgado Print name

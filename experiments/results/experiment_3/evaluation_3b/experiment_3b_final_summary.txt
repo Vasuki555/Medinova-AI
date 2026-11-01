@@ -1,0 +1,86 @@
+EXPERIMENT 3B — FINAL AUTOMATIC EVALUATION
+======================================================================
+
+IMPORTANT:
+These are automatic proxy metrics.
+They are NOT clinical expert factuality scores.
+No manually assigned clinical scores are included.
+
+Documents evaluated: 30
+Missing-data warnings: 0
+
+OVERALL RESULTS
+----------------------------------------------------------------------
+GT numeric preservation: 0.0817
+OCR numeric preservation: 0.0344
+Numeric preservation degradation: 0.0472
+
+GT lexical overlap: 0.0932
+OCR lexical overlap: 0.0661
+
+GT section completion: 0.1611
+OCR section completion: 0.3056
+
+SUBSET RESULTS
+----------------------------------------------------------------------
+
+[handwriting]
+Documents: 5
+GT numeric preservation: 0.1261
+OCR numeric preservation: 0.0518
+Numeric degradation: 0.0744
+GT lexical overlap: 0.0618
+OCR lexical overlap: 0.0612
+GT section completion: 0.1667
+OCR section completion: 0.1333
+
+[mixed]
+Documents: 5
+GT numeric preservation: 0.2205
+OCR numeric preservation: 0.0642
+Numeric degradation: 0.1563
+GT lexical overlap: 0.2364
+OCR lexical overlap: 0.0693
+GT section completion: 0.3000
+OCR section completion: 0.6333
+
+[normal]
+Documents: 5
+GT numeric preservation: 0.0295
+OCR numeric preservation: 0.0189
+Numeric degradation: 0.0105
+GT lexical overlap: 0.0595
+OCR lexical overlap: 0.0607
+GT section completion: 0.1333
+OCR section completion: 0.2000
+
+[poor]
+Documents: 5
+GT numeric preservation: 0.0242
+OCR numeric preservation: 0.0384
+Numeric degradation: -0.0142
+GT lexical overlap: 0.0613
+OCR lexical overlap: 0.0388
+GT section completion: 0.1000
+OCR section completion: 0.0333
+
+[rotated]
+Documents: 5
+GT numeric preservation: 0.0325
+OCR numeric preservation: 0.0235
+Numeric degradation: 0.0090
+GT lexical overlap: 0.0537
+OCR lexical overlap: 0.0863
+GT section completion: 0.1333
+OCR section completion: 0.6667
+
+[tables]
+Documents: 5
+GT numeric preservation: 0.0572
+OCR numeric preservation: 0.0099
+Numeric degradation: 0.0474
+GT lexical overlap: 0.0864
+OCR lexical overlap: 0.0804
+GT section completion: 0.1333
+OCR section completion: 0.1667
+

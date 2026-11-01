@@ -1,0 +1,63 @@
+MEDINOVA AI — EXPERIMENT 3B STATISTICAL ANALYSIS
+========================================================================
+
+Design: paired comparison of GT-text and OCR-text conditions for the same documents.
+Test: two-sided Wilcoxon signed-rank test.
+Significance threshold: alpha = 0.05.
+Effect size: rank-biserial correlation.
+
+METRIC: Numeric preservation
+------------------------------------------------------------------------
+N: 30
+Non-zero paired differences: 17
+GT mean: 0.081677
+OCR mean: 0.034442
+GT median: 0.031015
+OCR median: 0.036376
+Mean difference (GT - OCR): 0.047234
+Median difference (GT - OCR): 0.000000
+Difference SD: 0.131796
+Wilcoxon statistic: 46.000000
+Wilcoxon p-value: 0.148052
+Rank-biserial effect size: 0.398693
+Significant at alpha=0.05: False
+
+METRIC: Lexical overlap
+------------------------------------------------------------------------
+N: 30
+Non-zero paired differences: 26
+GT mean: 0.093167
+OCR mean: 0.066129
+GT median: 0.060027
+OCR median: 0.065865
+Mean difference (GT - OCR): 0.027038
+Median difference (GT - OCR): 0.000000
+Difference SD: 0.106048
+Wilcoxon statistic: 141.500000
+Wilcoxon p-value: 0.387769
+Rank-biserial effect size: 0.193732
+Significant at alpha=0.05: False
+
+METRIC: Section completion
+------------------------------------------------------------------------
+N: 30
+Non-zero paired differences: 16
+GT mean: 0.161111
+OCR mean: 0.305556
+GT median: 0.166667
+OCR median: 0.166667
+Mean difference (GT - OCR): -0.144444
+Median difference (GT - OCR): 0.000000
+Difference SD: 0.326755
+Wilcoxon statistic: 27.500000
+Wilcoxon p-value: 0.031085
+Rank-biserial effect size: -0.595588
+Significant at alpha=0.05: True
+
+IMPORTANT INTERPRETATION NOTES
+------------------------------------------------------------------------
+1. Experiment 3B metrics are automatic proxy metrics.
+2. They are not clinical expert factuality scores.
+3. Statistical significance does not establish causality.
+4. Section completion measures structural output behaviour, not clinical correctness.
+5. Results should be interpreted together with the OCR and clinical-information experiments.

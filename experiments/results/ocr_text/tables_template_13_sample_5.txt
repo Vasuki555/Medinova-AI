@@ -1,0 +1,19 @@
+CENERALHOSPITAL Hospital
+FFullName David P:,Kowalski Gender: [X] M; [JF [ ] Other;
+Dateof Binth (MMIDDNY 02/07141962; Phone Number: '(346) 555-0617
+Patient ID / MRN MRN0234.17 Today s Date: 03/25/2026'
+Vital Signs BPmmH)z: Pulse bpm)z [Resp-lpm) 136/82 66 14:
+Temp(Cp 98.0'
+[Spo2 (%) 98,
+Weight(W)EE][Height (i)EI 1851 71
+EMedicalHistor [X] Hypertension:_ [JAsthma [X]High Cholesterol []Cancer
+[]Diabetes (Uype]) COPD Thyroid Disorder: []Depression/Anxiety
+[X] Diabetes (Type W) X] Heart Disease []Arthritis []Otherz
+"Medications Medication Name Metoprolol Succinate 'Aspirin EC Empagliflozin Rosuvastatin
+Dosa= 50.mg 81 mg' 10mg' 20mg
+Frequency Once daily: Once daily ROnce daily Once dailyAPM):
+EAlergies BAllergen Contrast dye
+Reactionvp Anaphylaxis requires pre-medication
+Reasontor Visit Post-ML 6;month tolloweup Cardiacstress testreviewed Patient repoitsgood exercise tolerance an no angina Symptoms
+Provider Signature: Kevin { . Gzei
+'Date: 03/25/2026

@@ -1,0 +1,16 @@
+experiment,metric,overall_value,sample_size,interpretation
+Experiment 1 — OCR,Character Error Rate (CER),0.594546804515183,328,Lower is better
+Experiment 1 — OCR,Word Error Rate (WER),0.8452459336743955,328,Lower is better
+Experiment 2A — Clinical Information,Number preservation,0.38963963963963966,328,Higher is better
+Experiment 2A — Clinical Information,Date preservation,0.33207902163687675,297,Higher is better
+Experiment 2A — Clinical Information,Unit preservation,0.2165762210162802,315,Higher is better
+Experiment 2A — Clinical Information,Measurement preservation,0.13600891861761427,224,Higher is better
+Experiment 3B — LLM,GT numeric preservation,0.0816767172740925,30,Automatic proxy metric
+Experiment 3B — LLM,OCR numeric preservation,0.03444243512074448,30,Automatic proxy metric
+Experiment 3B — LLM,Numeric preservation degradation,0.04723428215334802,30,GT minus OCR
+Experiment 3B — LLM,GT lexical overlap,0.09316666588006803,30,Automatic proxy metric
+Experiment 3B — LLM,OCR lexical overlap,0.06612854190375296,30,Automatic proxy metric
+Experiment 3B — LLM,Lexical overlap degradation,0.027038123976315064,30,GT minus OCR
+Experiment 3B — LLM,GT section completion,0.1611111111111111,30,Structural proxy metric
+Experiment 3B — LLM,OCR section completion,0.3055555555555555,30,Structural proxy metric
+Experiment 3B — LLM,Section completion degradation,-0.14444444444444446,30,GT minus OCR

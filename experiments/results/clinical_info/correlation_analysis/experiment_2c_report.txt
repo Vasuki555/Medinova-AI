@@ -1,0 +1,514 @@
+EXPERIMENT 2C — CORRELATION ANALYSIS
+======================================================================
+
+OCR rows: 328
+Clinical rows: 328
+Matched documents: 328
+Merged rows: 328
+
+CORRELATION RESULTS
+----------------------------------------------------------------------
+
+Scope: overall
+Metric: CER vs Number preservation
+N: 328
+Pearson r: -0.8284657511712898
+Pearson p: 4.4204013772987065e-84
+Spearman rho: -0.8314043526370428
+Spearman p: 3.4228219011616136e-85
+--------------------------------------------------
+
+Scope: overall
+Metric: WER vs Number preservation
+N: 328
+Pearson r: -0.816408352612975
+Pearson p: 9.823256595079264e-80
+Spearman rho: -0.8576220929350151
+Spearman p: 3.65109284185385e-96
+--------------------------------------------------
+
+Scope: overall
+Metric: CER vs Date preservation
+N: 297
+Pearson r: -0.6692679209142003
+Pearson p: 6.090125086858453e-40
+Spearman rho: -0.6681974024351658
+Spearman p: 8.937727732955111e-40
+--------------------------------------------------
+
+Scope: overall
+Metric: WER vs Date preservation
+N: 297
+Pearson r: -0.6854088782806145
+Pearson p: 1.5335845880558723e-42
+Spearman rho: -0.6983096266004277
+Spearman p: 9.635906677149487e-45
+--------------------------------------------------
+
+Scope: overall
+Metric: CER vs Unit preservation
+N: 315
+Pearson r: -0.6704176296073454
+Pearson p: 1.8167167497339395e-42
+Spearman rho: -0.707020533924516
+Spearman p: 5.109790809432301e-49
+--------------------------------------------------
+
+Scope: overall
+Metric: WER vs Unit preservation
+N: 315
+Pearson r: -0.6932530905472447
+Pearson p: 1.9387688880367594e-46
+Spearman rho: -0.6906415550117018
+Spearman p: 5.760160347411069e-46
+--------------------------------------------------
+
+Scope: overall
+Metric: CER vs Measurement preservation
+N: 224
+Pearson r: -0.5416517768660148
+Pearson p: 1.7749541913859748e-18
+Spearman rho: -0.5841508180284561
+Spearman p: 6.876652408808965e-22
+--------------------------------------------------
+
+Scope: overall
+Metric: WER vs Measurement preservation
+N: 224
+Pearson r: -0.6165191986301363
+Pearson p: 7.642573642983336e-25
+Spearman rho: -0.6178864263627291
+Spearman p: 5.634764195652381e-25
+--------------------------------------------------
+
+Scope: handwriting
+Metric: CER vs Number preservation
+N: 56
+Pearson r: -0.16382555613210403
+Pearson p: 0.22763288951979174
+Spearman rho: -0.050005981934579044
+Spearman p: 0.7143654201277995
+--------------------------------------------------
+
+Scope: handwriting
+Metric: WER vs Number preservation
+N: 56
+Pearson r: -0.12429263387857034
+Pearson p: 0.36140635823397266
+Spearman rho: -0.1066447913728304
+Spearman p: 0.4340432224272568
+--------------------------------------------------
+
+Scope: handwriting
+Metric: CER vs Date preservation
+N: 51
+Pearson r: -0.25113762809522455
+Pearson p: 0.07546477831284551
+Spearman rho: -0.1463210485210003
+Spearman p: 0.30556928516942344
+--------------------------------------------------
+
+Scope: handwriting
+Metric: WER vs Date preservation
+N: 51
+Pearson r: -0.21783310165897063
+Pearson p: 0.12464166918777785
+Spearman rho: -0.1554851477468244
+Spearman p: 0.27593310970474116
+--------------------------------------------------
+
+Scope: handwriting
+Metric: CER vs Unit preservation
+N: 53
+Pearson r: -0.4578687989504219
+Pearson p: 0.0005661511202863008
+Spearman rho: -0.31490046221856394
+Spearman p: 0.02164079327218059
+--------------------------------------------------
+
+Scope: handwriting
+Metric: WER vs Unit preservation
+N: 53
+Pearson r: -0.4100071393134476
+Pearson p: 0.0022960526495709494
+Spearman rho: -0.29317929055631164
+Spearman p: 0.033126675657167225
+--------------------------------------------------
+
+Scope: handwriting
+Metric: CER vs Measurement preservation
+N: 36
+Pearson r: nan
+Pearson p: nan
+Spearman rho: nan
+Spearman p: nan
+--------------------------------------------------
+
+Scope: handwriting
+Metric: WER vs Measurement preservation
+N: 36
+Pearson r: nan
+Pearson p: nan
+Spearman rho: nan
+Spearman p: nan
+--------------------------------------------------
+
+Scope: mixed
+Metric: CER vs Number preservation
+N: 48
+Pearson r: -0.8398626602181194
+Pearson p: 8.583871864474938e-14
+Spearman rho: -0.6738450511628526
+Spearman p: 1.52598318718449e-07
+--------------------------------------------------
+
+Scope: mixed
+Metric: WER vs Number preservation
+N: 48
+Pearson r: -0.8297643507360722
+Pearson p: 3.1224215162312387e-13
+Spearman rho: -0.37395226550418087
+Spearman p: 0.008837616848622974
+--------------------------------------------------
+
+Scope: mixed
+Metric: CER vs Date preservation
+N: 44
+Pearson r: -0.8831359327265114
+Pearson p: 2.1516672004059686e-15
+Spearman rho: -0.3630922845918442
+Spearman p: 0.015415879795009241
+--------------------------------------------------
+
+Scope: mixed
+Metric: WER vs Date preservation
+N: 44
+Pearson r: -0.9806117611856299
+Pearson p: 2.327727594564543e-31
+Spearman rho: -0.5366621195217668
+Spearman p: 0.00017308627014789356
+--------------------------------------------------
+
+Scope: mixed
+Metric: CER vs Unit preservation
+N: 47
+Pearson r: -0.25143615868152847
+Pearson p: 0.08822198880024876
+Spearman rho: -0.539453466323805
+Spearman p: 9.122961505533032e-05
+--------------------------------------------------
+
+Scope: mixed
+Metric: WER vs Unit preservation
+N: 47
+Pearson r: -0.010923050211558972
+Pearson p: 0.9419093202544969
+Spearman rho: -0.13317687882274545
+Spearman p: 0.37217122640365574
+--------------------------------------------------
+
+Scope: mixed
+Metric: CER vs Measurement preservation
+N: 34
+Pearson r: nan
+Pearson p: nan
+Spearman rho: nan
+Spearman p: nan
+--------------------------------------------------
+
+Scope: mixed
+Metric: WER vs Measurement preservation
+N: 34
+Pearson r: nan
+Pearson p: nan
+Spearman rho: nan
+Spearman p: nan
+--------------------------------------------------
+
+Scope: normal
+Metric: CER vs Number preservation
+N: 56
+Pearson r: -0.07190531294871481
+Pearson p: 0.5984461637928561
+Spearman rho: -0.15368576046275834
+Spearman p: 0.25810828113289713
+--------------------------------------------------
+
+Scope: normal
+Metric: WER vs Number preservation
+N: 56
+Pearson r: -0.25748217373147103
+Pearson p: 0.05539043775062929
+Spearman rho: -0.2300500818314866
+Spearman p: 0.08806962746103048
+--------------------------------------------------
+
+Scope: normal
+Metric: CER vs Date preservation
+N: 51
+Pearson r: -0.034477441113276636
+Pearson p: 0.8101864574463435
+Spearman rho: 0.0030428006102591475
+Spearman p: 0.9830930812743418
+--------------------------------------------------
+
+Scope: normal
+Metric: WER vs Date preservation
+N: 51
+Pearson r: -0.23427418992629764
+Pearson p: 0.09798687650314405
+Spearman rho: -0.12285307463921308
+Spearman p: 0.3904199608315377
+--------------------------------------------------
+
+Scope: normal
+Metric: CER vs Unit preservation
+N: 53
+Pearson r: -0.009490099839509523
+Pearson p: 0.9462290348550163
+Spearman rho: -0.017344508603517588
+Spearman p: 0.9018947223532564
+--------------------------------------------------
+
+Scope: normal
+Metric: WER vs Unit preservation
+N: 53
+Pearson r: -0.06817552206472305
+Pearson p: 0.6276371173627022
+Spearman rho: -0.05743051067292997
+Spearman p: 0.6829300098402943
+--------------------------------------------------
+
+Scope: normal
+Metric: CER vs Measurement preservation
+N: 36
+Pearson r: -0.0642343580163562
+Pearson p: 0.7097519441749387
+Spearman rho: -0.0384129647675542
+Spearman p: 0.8239824504505945
+--------------------------------------------------
+
+Scope: normal
+Metric: WER vs Measurement preservation
+N: 36
+Pearson r: -0.14564527923587692
+Pearson p: 0.39668081169458397
+Spearman rho: -0.0801260124189189
+Spearman p: 0.6422626982576133
+--------------------------------------------------
+
+Scope: poor
+Metric: CER vs Number preservation
+N: 56
+Pearson r: -0.8877785180366157
+Pearson p: 7.693022685053438e-20
+Spearman rho: -0.8857818815871975
+Spearman p: 1.2061902335812725e-19
+--------------------------------------------------
+
+Scope: poor
+Metric: WER vs Number preservation
+N: 56
+Pearson r: -0.900653987596226
+Pearson p: 3.394936379674544e-21
+Spearman rho: -0.9225582832280401
+Spearman p: 5.425794963810422e-24
+--------------------------------------------------
+
+Scope: poor
+Metric: CER vs Date preservation
+N: 51
+Pearson r: -0.6563307139848521
+Pearson p: 1.7038320711669923e-07
+Spearman rho: -0.7124530076544686
+Spearman p: 4.528755474729142e-09
+--------------------------------------------------
+
+Scope: poor
+Metric: WER vs Date preservation
+N: 51
+Pearson r: -0.7781126572860027
+Pearson p: 1.82997068273041e-11
+Spearman rho: -0.724969016476306
+Spearman p: 1.7902473843051335e-09
+--------------------------------------------------
+
+Scope: poor
+Metric: CER vs Unit preservation
+N: 53
+Pearson r: -0.4297241929046701
+Pearson p: 0.0013216812755344487
+Spearman rho: -0.43223088267794085
+Spearman p: 0.0012291181396258239
+--------------------------------------------------
+
+Scope: poor
+Metric: WER vs Unit preservation
+N: 53
+Pearson r: -0.4307404569145859
+Pearson p: 0.0012834277461422027
+Spearman rho: -0.461162085128674
+Spearman p: 0.0005102177935822558
+--------------------------------------------------
+
+Scope: poor
+Metric: CER vs Measurement preservation
+N: 36
+Pearson r: -0.41693217822176093
+Pearson p: 0.01141646011436951
+Spearman rho: -0.37135384968082863
+Spearman p: 0.02575373460469345
+--------------------------------------------------
+
+Scope: poor
+Metric: WER vs Measurement preservation
+N: 36
+Pearson r: -0.6489772793467619
+Pearson p: 1.857060811502953e-05
+Spearman rho: -0.4226446322182272
+Spearman p: 0.01022961495675872
+--------------------------------------------------
+
+Scope: rotated
+Metric: CER vs Number preservation
+N: 56
+Pearson r: -0.1884693354531597
+Pearson p: 0.16420503822028693
+Spearman rho: -0.21033562663241903
+Spearman p: 0.11971520310614153
+--------------------------------------------------
+
+Scope: rotated
+Metric: WER vs Number preservation
+N: 56
+Pearson r: -0.2898582583181139
+Pearson p: 0.030239975456380006
+Spearman rho: -0.3181992486593508
+Spearman p: 0.01685015638869787
+--------------------------------------------------
+
+Scope: rotated
+Metric: CER vs Date preservation
+N: 51
+Pearson r: nan
+Pearson p: nan
+Spearman rho: nan
+Spearman p: nan
+--------------------------------------------------
+
+Scope: rotated
+Metric: WER vs Date preservation
+N: 51
+Pearson r: nan
+Pearson p: nan
+Spearman rho: nan
+Spearman p: nan
+--------------------------------------------------
+
+Scope: rotated
+Metric: CER vs Unit preservation
+N: 53
+Pearson r: -0.2979396395291035
+Pearson p: 0.030251240352229074
+Spearman rho: -0.3150088926982878
+Spearman p: 0.021593239495520496
+--------------------------------------------------
+
+Scope: rotated
+Metric: WER vs Unit preservation
+N: 53
+Pearson r: 0.03524535614456195
+Pearson p: 0.8021624923379613
+Spearman rho: 0.1947692193721098
+Spearman p: 0.1622466991768113
+--------------------------------------------------
+
+Scope: rotated
+Metric: CER vs Measurement preservation
+N: 36
+Pearson r: nan
+Pearson p: nan
+Spearman rho: nan
+Spearman p: nan
+--------------------------------------------------
+
+Scope: rotated
+Metric: WER vs Measurement preservation
+N: 36
+Pearson r: nan
+Pearson p: nan
+Spearman rho: nan
+Spearman p: nan
+--------------------------------------------------
+
+Scope: tables
+Metric: CER vs Number preservation
+N: 56
+Pearson r: -0.029385389798767828
+Pearson p: 0.8297776231279638
+Spearman rho: 0.058865759043561575
+Spearman p: 0.6665050197664727
+--------------------------------------------------
+
+Scope: tables
+Metric: WER vs Number preservation
+N: 56
+Pearson r: -0.08337289239655508
+Pearson p: 0.5412665398030949
+Spearman rho: -0.008785574099464821
+Spearman p: 0.9487603528677594
+--------------------------------------------------
+
+Scope: tables
+Metric: CER vs Date preservation
+N: 49
+Pearson r: -0.0724274889473811
+Pearson p: 0.6209145319606317
+Spearman rho: 0.013379102885197556
+Spearman p: 0.9273018563597263
+--------------------------------------------------
+
+Scope: tables
+Metric: WER vs Date preservation
+N: 49
+Pearson r: 0.007816987756672921
+Pearson p: 0.9574872186124019
+Spearman rho: 0.016878252870556918
+Spearman p: 0.90836120037779
+--------------------------------------------------
+
+Scope: tables
+Metric: CER vs Unit preservation
+N: 56
+Pearson r: -0.4504409558669234
+Pearson p: 0.0004948578473153995
+Spearman rho: -0.4765662393518868
+Spearman p: 0.00020482124293359045
+--------------------------------------------------
+
+Scope: tables
+Metric: WER vs Unit preservation
+N: 56
+Pearson r: -0.49157793334769634
+Pearson p: 0.00011938350695803112
+Spearman rho: -0.5689483736240144
+Spearman p: 4.75805127525281e-06
+--------------------------------------------------
+
+Scope: tables
+Metric: CER vs Measurement preservation
+N: 46
+Pearson r: -0.3505858832849507
+Pearson p: 0.01690747842813738
+Spearman rho: -0.40463371803679743
+Spearman p: 0.005283577820363488
+--------------------------------------------------
+
+Scope: tables
+Metric: WER vs Measurement preservation
+N: 46
+Pearson r: -0.44790502948026995
+Pearson p: 0.0017999302714244907
+Spearman rho: -0.5238901109582687
+Spearman p: 0.00018656743072622905
+--------------------------------------------------

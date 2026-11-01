@@ -1,0 +1,373 @@
+EXPERIMENT 2B — REPRESENTATIVE OCR ERROR INSPECTION
+======================================================================
+Documents analyzed: 328
+CER/WER taken from existing Experiment 1 CSV; OCR not rerun.
+information_loss_score is a case-selection heuristic, not a clinical metric.
+
+----------------------------------------------------------------------
+SUBSET: handwriting
+DOCUMENT: handwriting_template_5_sample_6
+CER=0.62818 | WER=0.89404
+Numbers: 6/36 | Dates: 0/4 | Units: 0/7 | Measurements: 0/4
+Lost numbers: 92109; 03; 1978; 10; 10; 10; 619; 555; 555; -8012; 8125; 91942; -4567; 99.1; 95; 165; 98; 98; 18; 50
+Lost dates: 03121978; 10202024; 06152023; 11052024
+Lost units: °f; hr; bpm; mmhg; min; mg; week
+Lost measurements: ('99.1', '°f'); ('95', 'bpm'); ('98', 'mmhg'); ('50', 'mg')
+
+GROUND TRUTH:
+Bayview Medical Center & Neurological Institute 5500 Oceanfront Ave, San Diego, CA 92109 Patient: David Chen MRN: 778899 DOB: 03/12/1978 Chief Complaint Sudden onset of severe, "thunderclap" headache that started approximately two hours ago. Rates pain 10/10. Care Team Attending Physician: Dr. Sarah Jenkins, MD Pager: (619) 555-8012 Pharmacies Costco Pharmacy 8125 Fletcher Pkwy, La Mesa, CA 91942 Phone: (619) 555-4567 Vital sign T: 99.1°F HR: 95 bpm BP: 165/98 mmHg RR: 18 breaths/min O2 Sat: 98% on room air Allergies Ciprofloxacin - Tendonitis Medications Sumatriptan 50 mg tablet, as needed for migraines Vaccines Influenza - 10/20/2024 Tdap - 06/15/2023 COVID-19 Bivalent Booster - 11/05/2024 Problems Severe Headache History of Migraine with Aura Hypertension Family History Mother: History of migraines. Maternal Aunt: Died from a ruptured cerebral aneurysm at age 55. Social History Tobacco: Denies Alcohol: 1-2 glasses of wine per week. Occupation: Software Engineer, reports high stress at work recently.
+
+OCR OUTPUT:
+Bayiew Medical Center € NeurologicalInstitute 5500 Oceanfront Ave, San Diego; CA92109, Patient; Dle @lez: MRN: 778899: DOB:; 05/12/1975: Chief Complaint; ADey ~T € BrviFEi/Ol) 01eFRT t0rytuxtbteet MRtLuy "j: Care Team #zbxlry Pei Dy_@fedheinTnA Perrv (619).5564012 Pharmacies: EPevwa" FetzeFey TznAWTHwPez @ 'SS4S67 Vital sign Zf Fr & Erv BpJsti '~UrFG; PP i Bntesru ; T0 @Ft A8x. AUiASUi Allergies iciieeuui Tliit: Tnezuu @ilT " ~VREie& ol Vaccinesz Teysv, :j0j2/9126, Tec, @115/22}_ TGUTDv BweeizBrtu 1/c/22, Problems @Preic Fexleee Ttvy ATu "tekw: Fsrgtai FamilyHistory 7 1u Fu7y neiuch; Ttie:iC Di ifuvitvbwvRibvn~ Social History Fercs Dix te eeraer y*#sinerivre' frzilz %fw Envwv@erex
+
+----------------------------------------------------------------------
+SUBSET: handwriting
+DOCUMENT: handwriting_template_5_sample_5
+CER=0.65415 | WER=0.911565
+Numbers: 3/28 | Dates: 0/3 | Units: 1/7 | Measurements: 0/3
+Lost numbers: 07; 19; 19; 1993; 303; 303; 555; 555; -7811; 350; 80205; -1234; 98.7; 88; 118; 75; 16; 99; 11; 01
+Lost dates: 07191993; 11012024; 01152025
+Lost units: °f; hr; bpm; mmhg; min; weeks
+Lost measurements: ('98.7', '°f'); ('88', 'bpm'); ('75', 'mmhg')
+
+GROUND TRUTH:
+Pavilion for Women & Children at Metro Health 101 Healthway Drive, Denver, CO 80204 Patient: Jessica Williams MRN: 246810 DOB: 07/19/1993 Chief Complaint First-trimester vaginal spotting for one day. Care Team Attending Physician: Dr. Olivia Martinez, MD, FACOG Pager: (303) 555-7811 Pharmacies King Soopers Pharmacy 350 N Main St, Denver, CO 80205 Phone: (303) 555-1234 Vital sign T: 98.7°F HR: 88 bpm BP: 118/75 mmHg RR: 16 breaths/min O2 Sat: 99% on room air Allergies Codeine - Nausea/Vomiting Medications Prenatal Vitamin one tablet by mouth daily Vaccines Influenza - 11/01/2024 Tdap - 01/15/2025 COVID-19 Vaccine (series complete) Problems Intrauterine Pregnancy, 9 weeks gestation by LMP Vaginal Spotting in Pregnancy Family History Mother: History of hypothyroidism. Father: History of hypertension. No family history of birth defects or genetic disorders. Social History Tobacco: Denies Alcohol: Denies use since learning of pregnancy. Occupation: High school teacher. Married. Lives with husband.
+
+OCR OUTPUT:
+Pavilion forWomen & Chiidrenat Metro Health 101 HealthwayDrive,Denvet_CQ 80204. Patient: Jxir; C ulee , ' 4' MRN: '246810., 77 POB.O.9.8 Chief Complaint; #lmt VZzvvediab Exb7kvno day Hes {p8z Care Team; 9AM6 ETZZNEEEEED Oia Mai mD-ecog pK Pozv: 203 535.7811 Pharmacies Fedck prza znneEEZzCO &ozo54Drn4 2o3551224 Vital sign Fc721 J4r&tr: :k #t_ v:h IEp-1TrrHdi 'pa RR;-Iotiatrv rin; 0228341, 'sy orairv ' I'_l Pl Allergies ZEnz-Uzzzo Medications;_ Punatartltariciotaturatr Vaccines; Ii 'ILOL2024 2n OL 52025 COVID AVeezine; siex epexo Problems_ @tattoue Prag quuky 3trrgermp ~Unain"c&trra ~Priza Family Historyi 172133437 gZ46c tatrz 262 3zt~: TT Zdizaedos; Social Oona Hotrrctax #za*rruthzr t1 2 {J:r: "v_ 3u F"([4 ~mii"65:- 424( Xm 64"2u"} ';A*n
+
+----------------------------------------------------------------------
+SUBSET: handwriting
+DOCUMENT: handwriting_template_5_sample_7
+CER=0.591566 | WER=0.875
+Numbers: 4/21 | Dates: 0/1 | Units: 0/7 | Measurements: 0/4
+Lost numbers: 556677; 08; 25; 2004; 312; 555; 555; -2355; 1120; 60607; -1199; 98.6; 124; 76; 16; 100; 220
+Lost dates: 08252004
+Lost units: s; °f; hr; bpm; mmhg; min; mg
+Lost measurements: ('98.6', '°f'); ('78', 'bpm'); ('76', 'mmhg'); ('220', 'mg')
+
+GROUND TRUTH:
+Midwest Orthopedics & Sports Medicine Center 950 N. Clark Street, Chicago, IL 60610 Patient: Chloe Davis MRN: 556677 DOB: 08/25/2004 Chief Complaint Left knee pain and instability after an injury during a soccer game today. Care Team Attending Physician: Dr. Marcus Thorne, MD Pager: (312) 555-2355 Pharmacies CVS Pharmacy 1120 S. Canal Street, Chicago, IL 60607 Phone: (312) 555-1199 Vital sign T: 98.6°F HR: 78 bpm BP: 124/76 mmHg RR: 16 breaths/min O2 Sat: 100% on room air Allergies No Known Drug Allergies Medications Naproxen 220 mg, as needed for pain Vaccines All immunizations up to date. Problems Acute Left Knee Pain Left Knee Effusion Family History Non-contributory. Parents are in good health. Social History Tobacco: Denies Alcohol: Denies Occupation: College student, plays on the university soccer team.
+
+OCR OUTPUT:
+Midwest Orthopedics & Sports Medicine Center 950 N: Clark Street; Chicago; IL.60610; Patient;; Clezdrs: MRN:; JJc(T7 DQB: 7s/61: Chief Complaint_ Zeeknez pe 91; Iitezio 0en m %8rz di: JESKOne LZkx _ Care: Team_ [itzx3w e 3 72776 73402 (312) J235: Pharmacies 233321635Z23267552 Lic7, 7 (31) ,55:11 Vital sign 78. (91 j42}.7 enn, 1ulic KK 22 11 errach7eE Ql atr180# 5 Ot Allergies: Nanin Sr Zeezz Z| 7t ~ Ai;ct =: Narz6 11601%neeled&h,r6^ Vaccines: Aee: ~~inetie% sp1F-dz? Problems AztzL~} 'Kec e;; La& Iee Z6rr _ FamilyHistory: 'Nfn-2ntciz: PizUuez; Dleeh Social History TAreskbi@; Eeek e2c~ @zikte4 2@eo_ "el:tr? onthl,7it7*7L7n
+
+----------------------------------------------------------------------
+SUBSET: handwriting
+DOCUMENT: handwriting_template_3_sample_2
+CER=0.833922 | WER=0.926829
+Numbers: 8/14 | Dates: 0/0 | Units: 0/6 | Measurements: 0/0
+Lost numbers: 123; 217; 555; -1213; 24; 10
+Lost dates: None
+Lost units: day; day; day; day; g; years
+Lost measurements: None
+
+GROUND TRUTH:
+Patient Name: Johnathan A. Smith MRN: 78912345 RIVERSIDE HOSPITAL Gastroenterology Associates of North America 123 Health Drive Springfield, IL 62704 Phone: (217) 555-1212 Fax: (217) 555-1213 You have undergone a colonoscopy, a diagnostic procedure in which a flexible, lighted tube was used to examine the lining of your large intestine (colon). The sedation you received for the procedure will continue to affect your judgment and coordination for the rest of the day. For your safety, it is essential that you carefully follow these instructions. Immediate Post-Procedure Care Transportation: You must be discharged into the care of a responsible adult who will drive you home. You are not permitted to drive, take a taxi or rideshare alone, or use public transportation by yourself. Rest and Supervision: A responsible adult must stay with you for the remainder of the day and night. It is important to rest at home for the rest of today. Dietary Guidelines Begin by drinking clear liquids (such as water, apple juice, ginger ale, or broth) once you are home. If you tolerate clear liquids well, you may advance to a light meal a few hours later. Good choices include soup, toast, crackers, or yogurt. (a) Normal Colon (b) Colon Impressions: Normal Colonoscopy: The entire colon, from the cecum to the rectum, was visualized and appeared normal. There were no polyps, masses, diverticula, or evid ...
+
+OCR OUTPUT:
+Patient Name: Johnathan A; Smith MRN: 78912345 GastroenterologyAssociates of North Azgetiealth Prive 'Springtield, IL 62704 Phone: (2.1,71,555-1212 Fax.(217).555:1213_ (a) Normal Colon SOQN31 RIVERSIDE: HOSPITAL; 4 6 &04# mmediate Post-Procedure Gare bt "ii; hebplz {(6) colon Impressions Activityz ~S Int tbv 6ipz 24 oilow-up= This documentcontains confidential patient information protected under applicable privacy laws; ngthe Heaith Insurance Portability and Accountability Act (HIPAA): Page 1
+
+----------------------------------------------------------------------
+SUBSET: mixed
+DOCUMENT: mixed_template_10_sample_5
+CER=1.0 | WER=1.0
+Numbers: 0/30 | Dates: 0/1 | Units: 0/5 | Measurements: 0/5
+Lost numbers: 831676002937; 02; 07; 1962; 023; -417; -36; 25; 2026; 10; 10; 10; 10; 10; 10; 10; 10; 10; 5.2; 0
+Lost dates: 02071962
+Lost units: mg; mg; mg; mg; mg
+Lost measurements: ('81', 'mg'); ('50', 'mg'); ('20', 'mg'); ('10', 'mg'); ('10', 'mg')
+
+GROUND TRUTH:
+LAKEWOOD HOSPITAL 831676002937 Patient: David P. Kowalski DOB: 02/07/1962 MRN: 023-417-36 March 25, 2026 SECTION A: Medical History Yes No Post-Myocardial Infarction (ICD-10: I25.2) X Hypertension (ICD-10: I10) X Hyperlipidemia (ICD-10: E78.5) X Type 2 Diabetes Mellitus (ICD-10: E11.9) X Generalized Anxiety Disorder (ICD-10: F41.1) X Gout (ICD-10: M10.9) X CKD Stage 2 (ICD-10: N18.2) X SECTION B: Current Medication Yes No Aspirin 81 mg — once daily X Metoprolol Succinate 50 mg — once daily X Rosuvastatin 20 mg — once daily (PM) X Ramipril 10 mg — once daily (AM) X Empagliflozin 10 mg — once daily X David Kowalski Patient signature David Kowalski Print name
+
+OCR OUTPUT:
+
+
+----------------------------------------------------------------------
+SUBSET: mixed
+DOCUMENT: mixed_template_12_sample_2
+CER=1.0 | WER=1.0
+Numbers: 0/74 | Dates: 0/13 | Units: 0/31 | Measurements: 0/10
+Lost numbers: 11; 03; 03; 03; 03; 03; 03; 03; 03; 03; 03; 03; 03; 03; 1958; 67; 44712; 15; 15; 15
+Lost dates: 11031958; 03152026; 03152026; 03152026; 03012026; 03012026; 03012026; 03012026; 03012026; 03012026; 03012026; 03012026; 03012026
+Lost units: m; h; h; h; h; h; h; h; h; h; h; h; h; l; l; l; l; l; l; l
+Lost measurements: ('2026', 'mg/dl'); ('2026', 'mg/dl'); ('2026', 'mg/dl'); ('2026', 'mg/dl'); ('38', 'l'); ('36', 'l'); ('26.0', 'l'); ('25.1', 'l'); ('19.8', 'l'); ('19.5', 'l')
+
+GROUND TRUTH:
+Michael B. Torres DOB: 11/03/1958 Age: 67 Sex: M Acct#: 44712-B Physician: Dr. James R. Allen, MD PRECISION DIAGNOSTIC LAB 03/15/2026 06:30 03/15/2026 07:20 03/15/2026 09:55 NMR LipoProfile NMR LipoProfile Test Result Previous Result Date Units Ref Interval LDL Particle Number 1820 H 1950 H 03/01/2026 nmol/L <1000 LDL-P 1820 H 1950 H 03/01/2026 nmol/L <1000 Lipids LDL-C (NIH Clac) 138 H 148 H 03/01/2026 mg/dL <100 HDL-C 38 L 36 L 03/01/2026 mg/dL >=40 Triglycerides 210 H 198 H 03/01/2026 mg/dL <150 Cholesterol, Total 248 H 260 H 03/01/2026 mg/dL <200 LDL and HDL Particles HDL-P (Total) 26.0 L 25.1 L 03/01/2026 nmol/L >=30.5 Small LDL-P 820 H 880 H 03/01/2026 nmol/L <527 LDL Size 19.8 L 19.5 L 03/01/2026 nm >=20.5 Comment Markedly elevated LDL-P with predominance of small dense particles. Strongly recommend intensification of statin therapy and lifestyle intervention.
+
+OCR OUTPUT:
+
+
+----------------------------------------------------------------------
+SUBSET: mixed
+DOCUMENT: mixed_template_13_sample_4
+CER=1.0 | WER=1.0
+Numbers: 0/25 | Dates: 0/3 | Units: 0/12 | Measurements: 0/4
+Lost numbers: 08; 19; 1980; 019883; 713; 555; -1204; 02; 02; 14; 14; 2026; 2026; 124; 80; 76; 15; 98.2; 98; 138
+Lost dates: 08191980; 02142026; 02142026
+Lost units: mm; m; s; s; mmhg; bpm; mg; mg; mg; mg; day; week
+Lost measurements: ('400', 'mg'); ('5', 'mg'); ('5', 'mg'); ('325', 'mg')
+
+GROUND TRUTH:
+GENERALHOSPITAL HOSPITAL Full Name: Sandra K. Okafor Date of Birth (MM/DD/YYYY): 08/19/1980 Patient ID / MRN: MRN-019883 Gender: [ ] M [X] F [ ] Other Phone Number: (713) 555-1204 Today's Date: 02/14/2026 Vital Signs BP (mmHg) Pulse (bpm) Resp (rpm) Temp (°F) SpO2 (%) Weight (lb) Height (in) 124/80 76 15 98.2 98 138 65 Medical History [X] Hypertension [ ] Diabetes (Type I) [ ] Diabetes (Type II) [ ] Asthma [ ] COPD [ ] Heart Disease [ ] High Cholesterol [ ] Thyroid Disorder [X] Arthritis [ ] Cancer [ ] Depression/Anxiety [ ] Other: Medications Medication Name Dosage Frequency Hydroxychloroquine 400 mg Once daily Prednisone 5 mg Once daily (AM) Amlodipine 5 mg Once daily Ferrous Sulfate 325 mg Every other day Allergies Allergen Reaction Type NSAIDs GI upset / renal concern Penicillin Rash Reason for Visit Lupus nephritis monitoring visit. Urinalysis and renal panel ordered. Patient reports joint pain flare in left knee this week. Provider Signature: Priya S. Mehta Date: 02/14/2026
+
+OCR OUTPUT:
+
+
+----------------------------------------------------------------------
+SUBSET: normal
+DOCUMENT: normal_template_1_sample_7
+CER=0.126173 | WER=0.588235
+Numbers: 29/45 | Dates: 1/4 | Units: 2/22 | Measurements: 0/10
+Lost numbers: -5001; 30; 1955; 06; 20; 20; 2025; 2025; 132; 55; 4.1; 101; 7.2; 0.8; -3; 123
+Lost dates: 07301955; 06202025; 06202025
+Lost units: mg; mg; mg; mg; dl; dl; dl; dl; dl; dl; iu/l; iu/l; iu/l; l; l; l; l; g; g; months
+Lost measurements: ('132', 'mg/dl'); ('22', 'mg/dl'); ('55', 'iu/l'); ('48', 'iu/l'); ('1.2', 'mg/dl'); ('9.5', 'mg/dl'); ('110', 'iu/l'); ('7.2', 'g/dl'); ('4.1', 'g/dl'); ('0.8', 'mg/dl')
+
+GROUND TRUTH:
+Accession #: L20250620-1148 SPRINGFIELD GENERAL HOSPITAL Premier Clinical Laboratories 1200 Technology Drive Austin, TX 78759 Phone: (512) 555-5000 Fax: (512) 555-5001 Patient: James Peterson DOB: 07/30/1955 MRN: 357159 Gender: Male Referring Physician: Dr. Laura Fernandez Order #: 998123 Date Collected: 06/20/2025 Date Reported: 06/20/2025 Clinical Laboratory Report Comprehensive Metabolic Panel (CMP) The results of the Comprehensive Metabolic Panel show a Glucose level that is elevated at 132 mg/dL. The BUN is also elevated at 22 mg/dL. Liver function tests show an elevated ALT of 55 IU/L and an elevated AST of 48 IU/L. The following tests are within normal limits: Sodium at 140 mmol/L, Potassium at 4.1 mmol/L, Chloride at 101 mmol/L, Carbon Dioxide at 25 mmol/L, Creatinine at 1.2 mg/dL, Calcium at 9.5 mg/dL, Alkaline Phosphatase at 110 IU/L, Total Protein at 7.2 g/dL, Albumin at 4.1 g/dL, and Total Bilirubin at 0.8 mg/dL. Comment: Mild hyperglycemia and mild elevation in liver transaminases are noted. Clinical correlation is recommended. Recommendation to repeat liver function tests and check Hemoglobin A1c in 1-3 months based on clinical evaluation for hyperglycemia. Follow up with referring provider. Date of Review: 06/20/2025 Laboratory Director: Dr. Charles Evans, PhD CONFIDENTIALITY NOTICE: This report contains confidential patient information protected by federal and s ...
+
+OCR OUTPUT:
+Accession ;L20250620-1148 SPRINGFIELD; GENERAE HOSPITAL Premier Clinical Laboratories' = 1200 TechnologyDrive' Austin;,TX 78759; Phone: (512) 555-5000; Fax: (512).555-500.1 Patient: James Peterson' DOB:07/3041955 MRN: 357159} Gender: Male; Referring Physician: Dr; Laura: 'Fernandez: 06/2042025 Date Reported 0642072025 73 Order #.998123 Date Collected Clinical Laboratory Report Comprehensive Metabolic Panel (CMP) The results of the Comprehensive Metabolic Panel showaGlucose levelthatiselevated atj32imgrdL; TheBUNis also elevatedat 22,mg/al Liver function tests showar elevated ALTof 55LU/Landan elevated AST of.48 IUIL. The following,tests are within normallimits: Sodium'at 140 mmolL; Potassiumat 4;1 mmoUL; Chloride atyormmoUL; Carbon Dioxideat 25,mmoUL; Creatinine at 1.2, mgldL, Calciumat 9.5,mgdL, Alkaline: . Phosphataseat 110 UIL,Total_Protein at7 2 gJdL;Albuminat 4.1 @dL; and Total Bilirubin at 0.8i mgldL: Corinient; Mildhyperglycemia.and mild elevation in (ivertransaminases are noted: Clinicai correlation' is recommended. Recommendation to repeat liver function testsand check Hemoglobin ATc,in ]-3months based on clinical evaluation for hyperglycemia: Follow up with referring provider:' Date of Review:06/20/2025 Laboratory Director: Dr: Charles Evans,PhD; ~CONFIDENTIALITY NoTicE: This report _ contains confidential patient information protected by federal; ~and state law it is ...
+
+----------------------------------------------------------------------
+SUBSET: normal
+DOCUMENT: normal_template_2_sample_5
+CER=0.307731 | WER=0.711806
+Numbers: 25/36 | Dates: 0/2 | Units: 1/5 | Measurements: 1/4
+Lost numbers: 831676002937; 1985; 39; 123; 67890; 06; 1.0; 0.4; 0.7; 1; 1
+Lost dates: 09101985; 06212025
+Lost units: s; cm; cm; cm
+Lost measurements: ('1.0', 'cm'); ('0.4', 'cm'); ('0.7', 'cm')
+
+GROUND TRUTH:
+Patient Name: Maria Garcia MRN: 4567890 LAKEWOOD HOSPITAL PATHOLOGY REPORT 831676002937 Date of Birth: 09/10/1985 Age: 39 Gender: Female Patient Address: 123 Forest Drive, Pine Ridge, USA 67890 Mountain View Medical Center 789 Summit Lane Pine Ridge, USA 67890 Phone: (555) 345-6789 Fax: (555) 345-6790 Accession Number: P2025-78901 Date of Collection: 06/21/2025 Time of Collection: 11:00 AM Specimen Type: Skin Shave Biopsy, Left Arm Ordering Physician: Dr. David Lee, MD Practice: Dermatology Associates of Pine Ridge Address: 234 Skin Care Way, Pine Ridge, USA 67890 Phone: (555) 765-4321 Final Diagnosis: Skin, left arm: Malignant Melanoma, Nodular Type Microscopic Description: The sections show a nodular proliferation of atypical melanocytes extending from the epidermis into the deep dermis. The melanocytes are large, with irregular nuclear contours, prominent eosinophilic nucleoli, and abundant eosinophilic cytoplasm. Numerous mitotic figures, including atypical forms, are identified. The Breslow thickness is measured at 2.5 mm. Ulceration is present. There is no evidence of lymphovascular or perineural invasion. Gross Description: Received in formalin, labeled with the patient's name and "left arm shave biopsy," is a single, circular piece of skin measuring 1.0 cm in diameter and 0.4 cm in thickness. The epidermis is focally ulcerated and contains a darkly pigmented, raised les ...
+
+OCR OUTPUT:
+Patient Name: Maria Garcia MRN: 4567890: LAKEWOOD PATHOLOGY REPORT: HOSPITAL '83167600293. Date.of Birth; 09/10/1,985: Agev39 Mountain View Medical Center: Gender: Female Patient Address: 23 Forest Drive;; 789 Summit Lane Pine Ridge; Pine 'Ridge:: UUSA 67890: USA67890; Phone: (555).345-6789' Fax: (555).345-6790 Ordering Physician: Dr: David Lee; MD: Accession Number:P2025-78901: Practice: Dermatology Associates Date of Collection: 08/21/2025: of Pine Ridge; Time_of Collection:11;00 AM Address= 234-Skin Care Way; Pine Specimen Type: Skin Shave Biopsy; Left Arm Ridge; USA 67890: Phone: (555).765-4321 FFinal Diagnosis: Skin;left arm: Malignant Melanoma; Nodular Type: , Thorgectoxis soscaintoularproliferation ofatypicalmelanocytes extendingtromthe apidermis into thedeepi derrsho deep The melanocytes are large;with irregular nuclear contours;prominent eosinophilic nucleoli; dnd abundanteasinoplilic cytoplasm Numerous mitotic figures;including atvpicaltorms; arejdentified' The Breslow thickness js measured at 2.5 mm: Ulceration is present Thereis no' evidence oflymphovascularorperineural invasion: feceiveescrorramii, labeled withthe patientsname and "ierfarm-shave biopsy Receivedin formalin;; js a single; circular; .0 cmin diameteriand 0 4 cmin thickness: The epidermis is : focallyuicerated 'piece of;skin measuring , 'and containsja darkly pigmented, raised lesion measuring0.7 cmin d ...
+
+----------------------------------------------------------------------
+SUBSET: normal
+DOCUMENT: normal_template_2_sample_6
+CER=0.281586 | WER=0.686992
+Numbers: 28/43 | Dates: 0/2 | Units: 1/1 | Measurements: 0/1
+Lost numbers: 831676002937; 12; 1950; 80011; 80011; 303; 555; -1212; 02; 45; 7; 7; 60; 1.1; 1.4
+Lost dates: 03121950; 06192025
+Lost units: None
+Lost measurements: ('1.4', 'cm')
+
+GROUND TRUTH:
+Patient Name: Robert Brown MRN: 6543210 LAKEWOOD HOSPITAL PATHOLOGY REPORT 831676002937 Date of Birth: 03/12/1950 Age: 75 Gender: Male Patient Address: 567 Birch Lane, Aurora, CO 80011 North Star Health System 450 Northland Blvd Aurora, CO 80011 Phone: (303) 555-1212 Fax: (303) 555-1213 Accession Number: P25-01234 Date of Collection: 06/19/2025 Time of Collection: 02:45 PM Specimen Type: Prostate, Needle Core Biopsy Ordering Physician: Dr. Sarah Jenkins, MD Practice: Rocky Mountain Urology Address: 890 Wellness Way, Suite 200, Aurora, CO 80012 Phone: (303) 555-8800 Final Diagnosis: Prostate, left base: Adenocarcinoma, Gleason Score 4+3=7 (Grade Group 3) Microscopic Description: Sections show prostatic acini replaced by infiltrative, poorly-formed cribriform glands (Gleason pattern 4) and individual discrete glands (Gleason pattern 3). The malignant glands are lined by cells with enlarged nuclei, prominent nucleoli, and scant cytoplasm. Perineural invasion is identified. The tumor involves approximately 60% of the core tissue examined. Gross Description: Received in formalin labeled "prostate, left base" are four tan-white cylindrical tissue cores, ranging from 1.1 to 1.4 cm in length. All tissue submitted in one cassette. Comments: The findings are consistent with prostatic adenocarcinoma, Gleason Score 7. The presence of a dominant Gleason pattern 4 and perineural invasion are ...
+
+OCR OUTPUT:
+Patient Naime: Robert BrownMRN:,6543210. LAKEWOOD: PATHOLOGY REPORT HOSPITAL 83167600293 Date of Birth:_03/1241950: Age: 75 Gender: Male; North Star Health System '450 Northiand Bivd Aurora; CO Patient Address: 567 Birch Lane; Aurora;co80017 8001.1= "Phone: (303j,555,1212 Fax:(303)' 555-1213 Ordering Physician: Dr: Sarah Number: P25-01234' Jenking; MD Accession (9/2025; 'Practice; Rocky Mountain Urology Date of collection: 06/19 Address: 890 Wellness' Way; ;Suite Time of Collection:,02.45 PM Specimen !ype; Prostate Needie Core Biopsy 200,,Aurora;;Co 80012 Phone: (303) 555-8800- Final Diagnosis: Prostate;left base: Adenocarcinoma; Gleason;Score 4+3-7 (Grade Group 3) Sectone?io prosiatioacini replaced byinfiltrative poorly-formed crbriformi glands (Gleason ~fecteonasandindvidua dscrete glands (Gleason Pattern 3} The malignantglangsarediaedibercche with: eenlarged nuclei; prominentnucleoli; and scant cytoplasm: Perineural invasionIs identified The 'tumorinvolves approximatelyso% of ther c "core tissue examined: Gross Description:: Received in formalin labeled "prostate,_left base" are four tan:-white cvlindrical tissue cores ranginig Trom:L to;1 4.cm inlength:All tissue submitted inone cassette; Crerinaings are consistentwith prostatic adenocarcinoma Gleason Score The presence ofa dominant Gleason pattern 4 and perineural invasion are adverse prognostic factots-Correlationwith ser ...
+
+----------------------------------------------------------------------
+SUBSET: normal
+DOCUMENT: normal_template_2_sample_2
+CER=0.328252 | WER=0.571429
+Numbers: 32/34 | Dates: 2/2 | Units: 3/5 | Measurements: 2/4
+Lost numbers: 987654321; 0.3
+Lost dates: None
+Lost units: s; cm
+Lost measurements: ('1.5', 'cm'); ('0.3', 'cm')
+
+GROUND TRUTH:
+Patient Name: Jane Doe MRN: 987654321 LAKEWOOD HOSPITAL PATHOLOGY REPORT 831676002937 Patient Name: Jane Doe Patient ID: 987654321 Date of Birth: 1970-05-15 Gender: Female Accession Number: P25-12345 University Medical Center 123 Health Sciences Drive Metropolis, USA 12345 Phone: (123) 456-7890 Fax: (123) 456-7891 Date of Collection: 2025-06-15 Time of Collection: 09:30 AM Specimen Type: Tissue biopsy, left breast Clinical History: Palpable lump in the upper outer quadrant of the left breast. Mammogram and ultrasound findings are suspicious for malignancy. Ordering Physician: Dr. John Smith, MD Clinical Practice: Metropolis Oncology Associates Address: 456 Cancer Care Plaza, Metropolis, USA 12345 Phone: (123) 555-0123 Gross Description: The specimen is received in formalin, labeled with the patient's name and medical record number, and designated "left breast core biopsy." It consists of three tan-white, cylindrical tissue fragments, ranging in length from 1.2 cm to 1.5 cm and in diameter from 0.2 cm to 0.3 cm. The entire specimen is submitted in one cassette. Microscopic Description: Histologic sections reveal cores of breast tissue with an infiltrative neoplasm. The tumor cells are arranged in irregular nests and single files, infiltrating the fibrous stroma. The neoplastic cells are pleomorphic with enlarged, hyperchromatic nuclei and prominent nucleoli. Mitotic figures are  ...
+
+OCR OUTPUT:
+Patient Name: Jane Doe MRN: 987654321 LAKEWOOD: PATHOLOGY REPORT HOSPITAL 831676002937: Patient Name: Jane Doe; Patient ID: 98765432j University Medical Center; Date of Birth: 1970-05-15 123 Healtti Sciences Drivve: Gender: Female Metropolis;'USA 12345 Accession Number: P25-12345 Phone: (123),456-7890, Fax:'(123) 456-7891; Date of Collection: 2025-06-15; Ordering Physician: Dr: John: Time of Collection: 09;30 AM: Smith;MDClinical Practicez Metropolis Ojcology Specimen Type: Tissue biopsy; left breast Associates Address: 456;, 'Clinical History: Palpable lump in the upper outer quadrant ofthe_left . 'Cancer Care Plaza breast ,Mammogram and ultrasound findings are suspicious for 'Metropolis;USA.12345 malignancy Phone: (123) 555-0123 Gross Description: The specimen isreceivedjin formalin; labeled with the patients name and medical record number;and designated "left breast core biopsy: " It consists of three tan-white: cylindricaltissue fragments' ranging in length from 1.2 cm to 1.5 cmandrin diameter from 0.2 cm to.0,3.cm: The entire specimen is_ submitted in one cassette Microscopic Qescription: Histologic sections reveal coresof breast tissue with an infiltrative necplasm: The tumor cells are arranged in irregular nests and single files; infiltratingthe fibrous stroma: Theneoplastic cells are pleomorphic with enlarged; hyperchromatic nuclei and prominent nucleoli; Mitotic figure ...
+
+----------------------------------------------------------------------
+SUBSET: poor
+DOCUMENT: poor_template_5_sample_5
+CER=0.966403 | WER=1.0
+Numbers: 0/28 | Dates: 0/3 | Units: 0/7 | Measurements: 0/3
+Lost numbers: 101; 80204; 246810; 07; 19; 19; 1993; 303; 303; 555; 555; -7811; 350; 80205; -1234; 98.7; 88; 118; 75; 16
+Lost dates: 07191993; 11012024; 01152025
+Lost units: day; °f; hr; bpm; mmhg; min; weeks
+Lost measurements: ('98.7', '°f'); ('88', 'bpm'); ('75', 'mmhg')
+
+GROUND TRUTH:
+Pavilion for Women & Children at Metro Health 101 Healthway Drive, Denver, CO 80204 Patient: Jessica Williams MRN: 246810 DOB: 07/19/1993 Chief Complaint First-trimester vaginal spotting for one day. Care Team Attending Physician: Dr. Olivia Martinez, MD, FACOG Pager: (303) 555-7811 Pharmacies King Soopers Pharmacy 350 N Main St, Denver, CO 80205 Phone: (303) 555-1234 Vital sign T: 98.7°F HR: 88 bpm BP: 118/75 mmHg RR: 16 breaths/min O2 Sat: 99% on room air Allergies Codeine - Nausea/Vomiting Medications Prenatal Vitamin one tablet by mouth daily Vaccines Influenza - 11/01/2024 Tdap - 01/15/2025 COVID-19 Vaccine (series complete) Problems Intrauterine Pregnancy, 9 weeks gestation by LMP Vaginal Spotting in Pregnancy Family History Mother: History of hypothyroidism. Father: History of hypertension. No family history of birth defects or genetic disorders. Social History Tobacco: Denies Alcohol: Denies use since learning of pregnancy. Occupation: High school teacher. Married. Lives with husband.
+
+OCR OUTPUT:
+DrDt'Colt 1442849442 Dote Q1nltd Gr4 per Dt
+
+----------------------------------------------------------------------
+SUBSET: poor
+DOCUMENT: poor_template_4_sample_4
+CER=0.956172 | WER=1.0
+Numbers: 0/32 | Dates: 0/3 | Units: 0/6 | Measurements: 0/7
+Lost numbers: 06; 21; 2025; 10; 10; 30; 1952; 72; 72; 72; 789; 54321; 2; 2; 2018; 2005; 100; 4; 8; 8
+Lost dates: 06212025; 10301952; 987654321
+Lost units: year; months; months; mmhg; bpm; °f
+Lost measurements: ('1000', 'mg'); ('20', 'mg'); ('40', 'mg'); ('81', 'mg'); ('78', 'mmhg'); ('72', 'bpm'); ('98.4', '°f')
+
+GROUND TRUTH:
+GENERALHOSPITAL HOSPITAL Date of Visit: 06/21/2025 Attending Provider: Dr. Sarah Jenkins, MD Location: Orthopedic & Sports Medicine Center Visit ID: ENC-A4B3C2D1 Date of Birth: 10/30/1952 Age: 72 Sex: Male Address: 789 Pine Lane, Lincolnwood, USA 54321 Chief Complaints: Worsening chronic right knee pain Difficulty walking and climbing stairs Morning stiffness Discussion of surgical options Medical History Snapshot: Primary Diagnosis: Severe tricompartmental osteoarthritis of the right knee Other Chronic Conditions: Type 2 Diabetes Mellitus, Hypertension, Coronary Artery Disease Surgical History: Coronary artery stent placement (2018), Laparoscopic Cholecystectomy (2005) Medications: Metformin 1000mg daily, Lisinopril 20mg daily, Atorvastatin 40mg daily, Aspirin 81mg daily Allergies: Codeine (nausea and vomiting) Visit Summary: Mr. Anderson is a 72-year-old male presenting for follow-up of severe right knee osteoarthritis. He reports a progressive worsening of pain over the past six months, which he now rates as an 8/10 with activity. The pain significantly impacts his mobility, limiting his ability to walk more than a single block, and frequently disturbs his sleep. He has failed to achieve lasting relief from conservative treatments, including a course of physical therapy and a corticosteroid injection administered 8 months prior. Recent knee X-rays confirm severe medial and p ...
+
+OCR OUTPUT:
+Oa4m Miicte Ymtt Hrn XIr CEHIERAiHOSPiTAL; 6to Ma@(MC ~arot IupL tutet] OucnCiNp ihni Deel #lomm' cint 0 Cr Knnuimiut ILMIWo awltsieiuebiniil meni
+
+----------------------------------------------------------------------
+SUBSET: poor
+DOCUMENT: poor_template_4_sample_5
+CER=0.947476 | WER=1.0
+Numbers: 0/24 | Dates: 0/3 | Units: 0/7 | Measurements: 0/4
+Lost numbers: 06; 21; 2025; 89; 04; 12; 1997; 28; 28; 101; 98765; 2015; 2; 6; -8; 98.6; 0.5; -1.5; 3; 246
+Lost dates: 06212025; 04121997; 246801357
+Lost units: week; week; year; weeks; °f; cm; cm
+Lost measurements: ('20', 'mg'); ('98.6', '°f'); ('-1.5', 'cm'); ('3', 'cm')
+
+GROUND TRUTH:
+GENERALHOSPITAL HOSPITAL Date of Visit: 06/21/2025 Attending Provider: Dr. Angela Patel, MD Location: University Dermatology Clinic Visit ID: ENC-GHI789-JKL Date of Birth: 04/12/1997 Age: 28 Sex: Female Address: 101 University Ave, College Town, USA 98765 Chief Complaints: A rash spreading across the back and arms for one week. Mild itchiness associated with the rash. Concern regarding the nature and spread of the rash. Medical History Snapshot: Active Problems: Gastroesophageal Reflux Disease (GERD) Surgical History: Wisdom teeth extraction (2015) Family History: Mother with a history of eczema. Medications: Combined oral contraceptive pill (daily), Famotidine 20mg (as needed for heartburn). Allergies: No Known Drug Allergies. Visit Summary: Jessica Chen, a 28-year-old female, presents for evaluation of a rash that appeared one week ago. It began as a single patch on her flank and has since spread to her back and upper arms. The rash is mildly pruritic, but she denies any pain, fever, or other associated symptoms. She has not changed any detergents, soaps, or lotions recently. The physical examination is notable for a "herald patch" on her right flank and multiple smaller, oval, pink papules with fine scale distributed along cleavage lines on her back, classic for a "Christmas tree" pattern. The clinical presentation is highly consistent with Pityriasis Rosea. The patient was  ...
+
+OCR OUTPUT:
+Dbumnonind Atteert rratndrmt 3itpd Huleu Ulttaty ppd Ce Pir Owwie VENORALHOSPQAL = Doi#1l" 1e5 0r Pitr UuiQoth mOy En Dueg Hntoty" miu t4044 Iun #pukK ea6 Dury Coute G#tta Snn Mo4nu Er 4GL 4
+
+----------------------------------------------------------------------
+SUBSET: poor
+DOCUMENT: poor_template_3_sample_5
+CER=0.972443 | WER=1.0
+Numbers: 0/17 | Dates: 0/1 | Units: 0/3 | Measurements: 0/0
+Lost numbers: 24681357; 1000; 48823; 517; 517; 555; 555; -8900; -8901; 06; 21; 2025; 24; 24; 10; 1; 1
+Lost dates: 06212025
+Lost units: day; day; years
+Lost measurements: None
+
+GROUND TRUTH:
+Patient Name: Brenda K. Johnson MRN: 24681357 RIVERSIDE HOSPITAL University Health System - Digestive Diseases Center 1000 Academic Medical Drive Lakeside, MI 48823 Phone: (517) 555-8900 Fax: (517) 555-8901 Procedure Date: 06/21/2025 You have undergone a colonoscopy today. The sedation you received will affect your coordination and judgment for the rest of the day. For your safety, you must have a responsible adult drive you home and stay with you. For the next 24 hours, do not drive, operate any form of machinery, drink alcohol, or sign legal documents. You should rest at home for the remainder of the day and can resume normal activities tomorrow. (a) Normal Colon (b) Colon Impressions: Normal Colonoscopy: The procedure was complete to the cecum. Bowel preparation was excellent, affording clear views of the entire mucosal surface. The colonic architecture was normal, with no evidence of polyps, masses, diverticula, or inflammatory changes. Diet: You may resume your diet as tolerated. We recommend starting with light foods and liquids and avoiding heavy or greasy meals for your first meal. Activity: Rest today. You may return to your usual activities 24 hours after your procedure. Follow-Up: As the examination was normal, your next routine screening colonoscopy is recommended in 10 years. Important: Please proceed to the nearest emergency room if you develop severe abdominal pa ...
+
+OCR OUTPUT:
+RILERSZDE HOSpITQL; Detiooinor} nom#Coon Nix Oke Adoet
+
+----------------------------------------------------------------------
+SUBSET: rotated
+DOCUMENT: rotated_template_2_sample_4
+CER=0.968581 | WER=0.996528
+Numbers: 0/41 | Dates: 0/2 | Units: 0/5 | Measurements: 0/4
+Lost numbers: 9876543; 831676002937; 11; 30; 1955; 69; 789; 54321; 54321; 54321; 456; 555; 555; 555; 234; 234; -5678; -5679; 025; -67890
+Lost dates: 11301955; 06202025
+Lost units: cm; cm; cm; cm; s
+Lost measurements: ('0.5', 'cm'); ('2.1', 'cm'); ('1.2', 'cm'); ('0.8', 'cm')
+
+GROUND TRUTH:
+Patient Name: Emily White MRN: 9876543 LAKEWOOD HOSPITAL PATHOLOGY REPORT 831676002937 Date of Birth: 11/30/1955 Age: 69 Gender: Female Patient Address: 789 Pine Street, Seaside, USA 54321 Coastal Medical Center 456 Ocean View Drive Seaside, USA 54321 Phone: (555) 234-5678 Fax: (555) 234-5679 Accession Number: P2025-67890 Date of Collection: 06/20/2025 Time of Collection: 09:00 AM Specimen Type: Lung, Right Upper Lobe, Wedge Resection Ordering Physician: Dr. Michael Chen, MD Practice: Thoracic Surgery Associates Address: 101 Medical Plaza, Seaside, USA 54321 Phone: (555) 876-5432 Final Diagnosis: Lung, right upper lobe: Adenocarcinoma, lepidic predominant, well-differentiated. Microscopic Description: The sections demonstrate a proliferation of atypical pneumocytes along the alveolar septa in a lepidic growth pattern. The tumor cells are cuboidal to columnar with mild nuclear atypia and inconspicuous nucleoli. There are focal areas of invasion measuring less than 0.5 cm. The surrounding lung parenchyma shows mild emphysematous changes. Surgical margins are negative for malignancy. Gross Description: Received fresh, labeled with the patient's name and "right upper lobe wedge," is a 5.5 x 3.2 x 2.1 cm wedge of lung tissue with a smooth, glistening pleural surface. Sectioning reveals a solitary, ill-defined, tan-white nodule measuring 1.2 cm in greatest dimension, located 0.8 cm f ...
+
+OCR OUTPUT:
+80_ jon3t (Medi HOSPITAL 'LAKEWOOD} 831676003 legng endor hyslelor Ichael 3 E Ipret
+
+----------------------------------------------------------------------
+SUBSET: rotated
+DOCUMENT: rotated_template_5_sample_7
+CER=0.944578 | WER=1.0
+Numbers: 0/21 | Dates: 0/1 | Units: 0/7 | Measurements: 0/4
+Lost numbers: 950; 60610; 556677; 08; 25; 2004; 312; 312; 555; 555; -2355; 1120; 60607; -1199; 98.6; 78; 124; 76; 16; 100
+Lost dates: 08252004
+Lost units: s; °f; hr; bpm; mmhg; min; mg
+Lost measurements: ('98.6', '°f'); ('78', 'bpm'); ('76', 'mmhg'); ('220', 'mg')
+
+GROUND TRUTH:
+Midwest Orthopedics & Sports Medicine Center 950 N. Clark Street, Chicago, IL 60610 Patient: Chloe Davis MRN: 556677 DOB: 08/25/2004 Chief Complaint Left knee pain and instability after an injury during a soccer game today. Care Team Attending Physician: Dr. Marcus Thorne, MD Pager: (312) 555-2355 Pharmacies CVS Pharmacy 1120 S. Canal Street, Chicago, IL 60607 Phone: (312) 555-1199 Vital sign T: 98.6°F HR: 78 bpm BP: 124/76 mmHg RR: 16 breaths/min O2 Sat: 100% on room air Allergies No Known Drug Allergies Medications Naproxen 220 mg, as needed for pain Vaccines All immunizations up to date. Problems Acute Left Knee Pain Left Knee Effusion Family History Non-contributory. Parents are in good health. Social History Tobacco: Denies Alcohol: Denies Occupation: College student, plays on the university soccer team.
+
+OCR OUTPUT:
+1 8 0 2 | | 1 I 0 1 8 | I { W L | | | 1 0 # U U H | | I I M 3 4 2 1 J
+
+----------------------------------------------------------------------
+SUBSET: rotated
+DOCUMENT: rotated_template_5_sample_2
+CER=0.93418 | WER=1.0
+Numbers: 0/25 | Dates: 0/1 | Units: 0/6 | Measurements: 0/4
+Lost numbers: 789; 90210; 310; 310; 555; 555; 555; -0101; 456789; 11; 22; 1995; -0112; 4500; 90022; 323; -0145; 101.5; 110; 125
+Lost dates: 11221995
+Lost units: °f; hr; bpm; mmhg; min; mg
+Lost measurements: ('101.5', '°f'); ('110', 'bpm'); ('78', 'mmhg'); ('200', 'mg')
+
+GROUND TRUTH:
+Northwood Community Hospital 789 Pine Street, Northwood, CA 90210 Phone: (310) 555-0101 Patient: Michael Johnson MRN: 456789 DOB: 11/22/1995 Chief Complaint Severe right lower quadrant abdominal pain, started yesterday, associated with nausea and fever. Care Team Attending Physician: Dr. Emily Chen, MD Pager: (310) 555-0112 Pharmacies CVS Pharmacy 4500 Beverly Blvd, Los Angeles, CA 90022 Phone: (323) 555-0145 Vital sign T: 101.5°F HR: 110 bpm BP: 125/78 mmHg RR: 18 breaths/min O2 Sat: 99% on room air Allergies No Known Drug Allergies Medications Ibuprofen 200 mg as needed for pain Vaccines All childhood immunizations up to date. Problems Acute Abdominal Pain Fever Family History Father: Healthy Mother: History of migraine headaches Paternal Uncle: Had appendectomy at age 25. Social History Tobacco: Denies Alcohol: Denies Occupation: Graduate student.
+
+OCR OUTPUT:
+M UM 3 V 8 1 8 M { 3 1i I 1; 1 1 1 p MI U 1 L IH U 6 L 1 H A 1 F 1 L | ) 1 | | 1 1} K 1 L I
+
+----------------------------------------------------------------------
+SUBSET: rotated
+DOCUMENT: rotated_template_8_sample_4
+CER=0.989198 | WER=1.0
+Numbers: 0/20 | Dates: 0/1 | Units: 0/2 | Measurements: 0/0
+Lost numbers: 555; 555; 555; 555; 789; 789; -0011; -0012; 567; 567; -1122; -1123; 25; 2025; 11; 28; 1; 07; 19; 1978
+Lost dates: 07191978
+Lost units: weeks; s
+Lost measurements: None
+
+GROUND TRUTH:
+HOSPITAL FAX To: Dr. Angela Desai, Pulmonology Facility: Clear Lung & Sleep Center Fax: (555) 789-0011 Phone: (555) 789-0012 Re: Consult for Patient: DAVIS, Brenda From: Dr. Oscar Holloway, MD Facility: Ridgemont Family Medicine Fax: (555) 567-1122 Phone: (555) 567-1123 Date: June 25, 2025 Time: 11:28 AM Pages: 1 (including cover) Notes: Dear Dr. Desai, I am referring my patient, Brenda Davis (DOB: 07/19/1978), for evaluation of a persistent dry cough. Ms. Davis was diagnosed with influenza A seven weeks ago. While her other symptoms have resolved, she is left with a severe, non-productive cough that disrupts her sleep. I would appreciate your further evaluation for possible post-viral bronchial hyperreactivity. Thank you for your time and consultation. The information contained in this facsimile message is legally privileged and confidential information intended only for the use of the individual or entity named above. If the reader of this message is not the intended recipient, you are hereby notified that any dissemination, distribution, or copying of this telecopy is strictly prohibited. If you have received this telecopy in error, please immediately notify us by telephone and return the original message to us at the address above via the U.S. Postal Service. Thank you.
+
+OCR OUTPUT:
+onfide % 8 6 2 2
+
+----------------------------------------------------------------------
+SUBSET: tables
+DOCUMENT: tables_template_15_sample_3
+CER=0.550749 | WER=0.877193
+Numbers: 13/52 | Dates: 0/4 | Units: 2/10 | Measurements: 0/2
+Lost numbers: 04; 01; 01; 2026; 12501; 12501; 80; 11; 05; 1945; 4; -01; -088; 13.2; 0; 0; 4.5; 11.0; 3.60; 4.00
+Lost dates: 04012026; 04012026; 11051945; 20260401
+Lost units: m; h; l; l; l; g; dl; dl
+Lost measurements: ('10.8', 'g/dl'); ('33.2', 'g/dl')
+
+GROUND TRUTH:
+04/01/2026 Northshore General Hospital — Pathology & Lab Medicine Name: Robert T. Nakamura Acct#: 12501-C Date: 04/01/2026 Age: 80 Sex: M DOB: 11/05/1945 Attend Dr: Dr. Kenji Yamamoto Location: Ward 4 SPEC#: S-2026-04-01-088 ENTER TIME: 08:00 ORDER TIME: 07:45 COLLECTED TIME: 08:00 REPORT TIME: 11:30 STATUS: FINAL REQ#: R-12501 Test Result Flag Reference Site WBC 13.2 x10³/µL H 4.5 - 11.0 W4 REC 3.60 x10⁶/µL L 4.00 - 5.20 W4 HGB 10.8 g/dL L 13.5 - 17.5 W4 HCT 32.5 % L 41.0 - 53.0 W4 MCV 90.2 fL 80.0 - 100.0 W4 MCH 30.0 pg 27.0 - 33.0 W4 MCHC 33.2 g/dL 32.0 - 36.0 W4 PLT 180 x10³/µL 150 - 400 W4
+
+OCR OUTPUT:
+'04/0.1/2026 Noithshore General Hospital Pathology & Lab Medicine; Nar e Robent [Nakan 1250 {e 4otlo? Age Sex DOB1105/945 COLLECTED TIME 08:00 'REPORT TIME: 11;30 0 DtiKenji Yaqetote tionaWard SPECI: S-2026.-04-01.0883 ENTER TIME;08;00_ ORDERTIME: 07*45 STATUS: FINAL REQ#AR;1250.1; te WBC; 2x103 W4 REC 3eoxx1oep Zoo= 620 W4 HGB' 8.g 1355 ,17.52 WA 3215, Zizo 5340 MCV _ 8030 doo.o MCH p8 27,0333.07 MCHC 333 321023670 180310.7 745
+
+----------------------------------------------------------------------
+SUBSET: tables
+DOCUMENT: tables_template_15_sample_2
+CER=0.511785 | WER=0.859649
+Numbers: 11/51 | Dates: 1/4 | Units: 1/10 | Measurements: 0/2
+Lost numbers: 03; 03; 15; 2026; 44712; 67; 11; 1958; -03; -15; -044; 06; 30; 09; 55; 11.4; 0; 0; 0; 4.5
+Lost dates: 03152026; 11031958; 20260315
+Lost units: m; s; h; l; l; g; g; dl; dl
+Lost measurements: ('11.2', 'g/dl'); ('33.5', 'g/dl')
+
+GROUND TRUTH:
+03/15/2026 Blue Ridge Medical Center — Laboratory Services Name: Michael B. Torres Acct#: 44712-B Date: 03/15/2026 Age: 67 Sex: M DOB: 11/03/1958 Attend Dr: Dr. James R. Allen Location: Tower B SPEC#: S-2026-03-15-044 ENTER TIME: 06:30 ORDER TIME: 06:15 COLLECTED TIME: 06:30 REPORT TIME: 09:55 STATUS: FINAL REQ#: R-44712 Test Result Flag Reference Site WBC 11.4 x10³/µL H 4.5 - 11.0 TB REC 3.80 x10⁶/µL L 4.00 - 5.20 TB HGB 11.2 g/dL L 13.5 - 17.5 TB HCT 33.4 % L 41.0 - 53.0 TB MCV 87.8 fL 80.0 - 100.0 TB MCH 29.5 pg 27.0 - 33.0 TB MCHC 33.5 g/dL 32.0 - 36.0 TB PLT 310 x10³/µL 150 - 400 TB
+
+OCR OUTPUT:
+3115/2026 Blue_Ridge Medical Center Laboratory Services:' INane MichaeB}gorres Aqctn4472B Date;03/15/2026 SPEC#ES2026-0315.044' ENTERTIME: 06.30 ORDERITIME: 06;15 MAger6 Se= Do Ev0301 nd Dr x JamagRi Allen atio TawerB COLLECTED TIME: 06;30 REPORT TIME: 09.55_ STATUS;FINAL REQ#: R-44712 le Reference WBC 14x1o@L 52 3180 T0 4;0Q 5220 HGB 13.56175 HCL pi OX 1530 MCV: 87 8iL 80 7 10O MCH 29,5pg 270 830 MCHC 33.5.d 320 36 310X1, 50; 400 REC
+
+----------------------------------------------------------------------
+SUBSET: tables
+DOCUMENT: tables_template_15_sample_4
+CER=0.542517 | WER=0.840708
+Numbers: 20/51 | Dates: 1/4 | Units: 1/10 | Measurements: 0/2
+Lost numbers: 02; 14; 2026; 19883; 45; 45; 08; 08; 19; -019; 00; 12; 5.8; 0; 0; 4.5; 11.0; 3.90; 4.00; 5.20
+Lost dates: 02142026; 02142026; 08191980
+Lost units: l; l; l; l; l; g; g; dl; dl
+Lost measurements: ('10.2', 'g/dl'); ('33.1', 'g/dl')
+
+GROUND TRUTH:
+02/14/2026 Harbor View Hospital — Clinical Laboratory Name: Sandra K. Okafor Acct#: 19883-D Date: 02/14/2026 Age: 45 Sex: F DOB: 08/19/1980 Attend Dr: Dr. Diana Mensah Location: Clinic C SPEC#: S-2026-02-14-019 ENTER TIME: 09:00 ORDER TIME: 08:45 COLLECTED TIME: 09:00 REPORT TIME: 12:00 STATUS: FINAL REQ#: R-19883 Test Result Flag Reference Site WBC 5.8 x10³/µL 4.5 - 11.0 CC REC 3.90 x10⁶/µL L 4.00 - 5.20 CC HGB 10.2 g/dL L 12.0 - 16.0 CC HCT 30.8 % L 36.0 - 46.0 CC MCV 78.4 fL L 80.0 - 100.0 CC MCH 26.2 pg L 27.0 - 33.0 CC MCHC 33.1 g/dL 32.0 - 36.0 CC PLT 340 x10³/µL 150 - 400 CC
+
+OCR OUTPUT:
+02/.14/2026 Harbor View Hospital Clinical Laboratory "Sankakctok "9833501 Date 21412028 SPECW; S-2026-02-14;0.19. ENTER TIME: 09:00, ORDER TIME;08.45 ge DQ 821 1980 COLLECTED TIME: 09:00; REPORT TIME: ,1200 STATUS:FINAL REQ#:R-19883 - WBC 58x103 REC :' 90x10 44oo336320 HGB; 20316 HCT U4 36.0 46.0 30.8 % MCV: {7824 80 100.0 MCH 2812pg 272 33.0 MCHC:; 333 32,0 36:6 PLT; 340. 50 400
+
+----------------------------------------------------------------------
+SUBSET: tables
+DOCUMENT: tables_template_11_sample_8
+CER=0.734052 | WER=0.946429
+Numbers: 95/145 | Dates: 13/22 | Units: 5/30 | Measurements: 0/12
+Lost numbers: 03; 19; 1970; 90173; 20; 2026; 2026; 2026; 2026; 07; 30; 08; 10; 50; 15; -99; 22; 7; 7; -25
+Lost dates: 03191970; 04202026; 03152026; 03152026; 03152026; 03152026; 03152026; 03152026; 03152026
+Lost units: mg; mg; mg; mg; mg; dl; dl; dl; dl; dl; dl; dl; dl; ml; min; l; l; l; l; g
+Lost measurements: ('2026', 'mg/dl'); ('2026', 'mg/dl'); ('2026', 'mg/dl'); ('2026', 'mg/dl'); ('2026', 'mg/dl'); ('2026', 'ml'); ('2026', 'g/dl'); ('2026', 'g/dl'); ('2026', 'g/dl'); ('2026', 'u/l'); ('2026', 'u/l'); ('2026', 'u/l')
+
+GROUND TRUTH:
+Harold S. Kim DOB: 03/19/1970 Age: 56 Sex: M Acct#: 90173-H Physician: Dr. Lucia M. Reyes, MD PRECISION DIAGNOSTIC LAB 04/20/2026 07:30 04/20/2026 08:20 04/20/2026 10:50 CMP, HbA1c Comp. Metabolic Panel Test Result Previous Result Date Units Ref Interval Glucose 108 H 100 03/15/2026 mg/dL 70-99 BUN 24 22 03/15/2026 mg/dL 7-25 Creatinine 1.18 1.10 03/15/2026 mg/dL 0.57-1.00 eGFR 67 72 03/15/2026 mL/min/1.73m2 >=60 BUN/Creatinine Ratio 20 20 03/15/2026 ratio 6-22 Sodium 138 139 03/15/2026 mEq/L 136-145 Potassium 4.4 4.2 03/15/2026 mEq/L 3.5-5.1 Chloride 101 100 03/15/2026 mEq/L 98-107 Carbon Dioxide, Total 23 24 03/15/2026 mEq/L 21-32 Calcium 9.2 9.3 03/15/2026 mg/dL 8.6-10.3 Protein, Total 6.9 7.0 03/15/2026 g/dL 6.1-8.1 Albumin 4.0 4.1 03/15/2026 g/dL 3.5-5.0 Globulin, Total 2.9 2.9 03/15/2026 g/dL 1.9-3.7 Bilirubin, Total 0.7 0.6 03/15/2026 mg/dL 0.2-1.2 Alkaline Phosphatase 84 82 03/15/2026 U/L 44-121 AST (SGOT) 29 26 03/15/2026 U/L 10-40 ALT (SGOT) 35 31 03/15/2026 U/L 7-56 Hemoglobin A1c Test Result Previous Result Date Units Ref Interval Hemoglobin A1c 6.5 6.2 03/15/2026 % <5.7
+
+OCR OUTPUT:
+Harold;S, Kim; DOB;03/1971970 Age= Acct#:90,1,73:H 56_Sex:M Physician: Dr: Lucia'M: Reyes;MD' 04/20/2026, 08.20, 04/20/20261.10.50 PRECISION= diagnoSTIC LAB 04/20/2026{07,30' CMP HbAIc Comp Metabolic Panet :Test' Result: Preiious 'Result 108.H; 100_ 24 122 21318 1610 72 20= 20, 138t 139' {434_ 4.2 "101 100: 23 24: '9.2 '9.31 '6.9 7.0 "4,0' 4.1: 2.9, 2.9_ 0.7 "0.6 84; 82: 29 26; 35: 31_ Date; 'Units Ref: Interval: 03/15/2026'mgIdL: 70*99 03/15/2026 mgdl; 7225, 03/15/20261 mgdL; 0.5741..00. 03/15/20261 mLmin/ 7312 760. 03/15/2026_ ratio 1p-n 6-224 03/15/2026 mEqil 4136,145 '03115/2026 mEqlL: 3,5.5.1 03/15/2026 mEqIL; 98;1.07 03/15/2026, mEqL; 21.32 03/15/2026, mgldL: 8.6-10.3 03/:15/2026' gL: 63118*1 03/15/2026gIdL 23.5-5.0 03/15/2026 gIdL 21;9.3.7. 03/15/2026. mgldL; 30.2.1.2 :03/15/2026 UIL:_ 7443121- '03/15/2026: UIL; '10-4o 03/15/2026 Uil:: 7356:: IGlucose BUN Creatinine;: "eGFR BUNICreatinine Ratio eSodiun Potassium Chloride 'Carbon Dioxide; Total; Calcium Protein; Total? Albumin Globulin;Total Bilirubin;Total Alkaline Phosphatase AST(SGOT) 'ALT(SGOT) 4 Hemoglobin Ajc; {Testi) Result : ~Previousi Resuiti {6.2, Date: Units Refinterval HemoglobinAlc 6.5 03/15/2026_ %;, <5,7:

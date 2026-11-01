@@ -1,0 +1,3 @@
+Diagnosis Classification: Bethesda System Category VI (Malignant).
+        *   Final Diagnosis Listed: Papillary Thyroid Carcinoma.
+        *   Molecular Result: BRAF V600

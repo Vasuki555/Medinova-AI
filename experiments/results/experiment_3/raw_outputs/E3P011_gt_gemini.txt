@@ -1,0 +1,2 @@
+Translate imaging terms carefully without adding medical facts outside the text:
+            *   "Lungs are clear without evidence of consolidation, infiltrate, or effusion": The lungs do not show fluid buildup

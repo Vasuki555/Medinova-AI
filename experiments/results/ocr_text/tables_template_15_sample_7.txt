@@ -1,0 +1,38 @@
+[01/30/2026
+Pinecrest Medical Center: Clinical Lab:.
+eicartoS MiRivera 386 202
+DrmatajorDia 8
+Cat
+EAL2I
+SPEC#S-2026-01-30*033 ENTER.TIMEO9.00_ ORDERTIME.0845
+COLLECTED TIME:Og.00 REPORT TIME: 1i:45
+STATUS: FINAL: REQ#:R-38664;
+8swa Refererice
+WBC #i
+04
+453 #
+5.0108
+4i50 5,90
+HGB
+52gd-
+0135 0175_
+CA;EE)
+HCT;
+45.8
+23
+53.0
+CA??
+MCVa:
+89.8
+80.0 100-
+GA:
+MCH
+298pg
+2780 3310,
+CA
+MCHC
+33*
+32
+36
+258:
+150 400.

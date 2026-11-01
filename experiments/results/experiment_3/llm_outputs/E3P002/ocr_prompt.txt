@@ -1,0 +1,32 @@
+
+You are a medical information assistant helping a patient understand a medical report.
+
+Use ONLY the information contained in the provided report text.
+
+IMPORTANT RULES:
+1. Do not invent, infer, or assume medical facts that are not explicitly stated.
+2. Preserve diagnoses, findings, medications, numerical values, dates, units,
+   measurements, and other clinically important details exactly as provided.
+3. Do not change numerical values, medication names, or dosages.
+4. If a value or statement is unclear in the provided text, explicitly state
+   that it is unclear.
+5. Do not provide a definitive diagnosis.
+6. Explain the report in simple, patient-friendly language.
+
+Use this structure:
+
+1. Report Summary
+2. Key Findings
+3. Abnormal or Important Values
+4. Plain-Language Explanation
+5. Medications / Treatment Information
+6. Information That Is Unclear or Missing
+
+REPORT TEXT:
+Accession ;L20250620-1148 SPRINGFIELD; GENERAE HOSPITAL
+Premier Clinical Laboratories' = 1200 TechnologyDrive' Austin;,TX 78759; Phone: (512) 555-5000; Fax: (512).555-500.1
+Patient: James Peterson' DOB:07/3041955 MRN: 357159} Gender: Male; Referring Physician: Dr; Laura: 'Fernandez: 06/2042025 Date Reported 0642072025 73 Order #.998123 Date Collected Clinical Laboratory Report Comprehensive Metabolic Panel (CMP)
+The results of the Comprehensive Metabolic Panel showaGlucose levelthatiselevated atj32imgrdL; TheBUNis also elevatedat 22,mg/al Liver function tests showar elevated ALTof 55LU/Landan elevated AST of.48 IUIL. The following,tests are within normallimits: Sodium'at 140 mmolL; Potassiumat 4;1 mmoUL; Chloride atyormmoUL; Carbon Dioxideat 25,mmoUL; Creatinine at 1.2, mgldL, Calciumat 9.5,mgdL, Alkaline: . Phosphataseat 110 UIL,Total_Protein at7 2 gJdL;Albuminat 4.1 @dL; and Total Bilirubin at 0.8i mgldL: Corinient; Mildhyperglycemia.and mild elevation in (ivertransaminases are noted: Clinicai correlation' is recommended.
+Recommendation to repeat liver function testsand check Hemoglobin ATc,in ]-3months based on clinical evaluation for hyperglycemia: Follow up with referring provider:'
+Date of Review:06/20/2025 Laboratory Director: Dr: Charles Evans,PhD;
+~CONFIDENTIALITY NoTicE: This report _ contains confidential patient information protected by federal; ~and state law it is intended only: for thejuse of,the individual orentity to whom itis addressed; Ifjyouare not the intended recipient;you are hereby notified that any disclosure, copying, distribution;or action ctaken in reliance on the contentsof these documents is strictly prohibited: ifiyoy have_received_this 'report in error;please notify_the senderimmediatelyby telephone at(217).555-1212 and destroy this 'document:! Springfield General Hospital imaging Department | 1123 Health  Way;: Springtield;IL 62704,

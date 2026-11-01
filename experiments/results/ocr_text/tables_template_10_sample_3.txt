@@ -1,0 +1,16 @@
+831676002937,
+Patient: Robeit: T; Nakamura DOB: 11/05/1945 MRN:.012-501-88
+LAKEWOOD; HOSPITAL
+April:1 2026
+SECTIONAEMedical History
+Yes: X X _X x X;
+No'
+Congestive Heart Failure (ICDE1O:I50.9) Atrial Fibrillation (ICD-10: 148.91) COPD, Moderate (ICD:10:J44.1) wype2 Diabetes Mellitus (ICD:10 E11.9) BenignProstatic Hyperplasia (ICD-TON4O O) Depression(ICD:10:F32 9 CKD Stage 2 (ICD-1O: N18.2)
+X
+# `
+SECTION B Cirrent Medication:
+Yes I 5 X_ X Xi ~{X
+No
+Warfarin 5 mg oncedaily (PM): Digoxin 0.125.ing once dajly (AM): Furosemide 80mg once daily (AM' Spironolactone5mg once daily Jiotropium inhaler:18 mcg once daily' Tamsulosin 0. 4 mg: once daily:
+'Robert Nakarura. Patient signature
+Robert Nakamura Print name

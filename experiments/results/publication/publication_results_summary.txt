@@ -1,0 +1,41 @@
+MEDINOVA AI — PUBLICATION RESULTS PACKAGE
+========================================================================
+
+TABLE 1 — OCR PERFORMANCE
+
+     subset  N    CER    WER
+     normal 56 0.1562 0.5420
+     tables 56 0.4625 0.7887
+handwriting 56 0.6055 0.8660
+       poor 56 0.5520 0.9057
+    rotated 56 0.8934 0.9974
+      mixed 48 0.9483 0.9927
+
+TABLE 2 — CLINICAL INFORMATION PRESERVATION
+
+     subset  N  Numbers  Dates  Units  Measurements
+     normal 56   0.7636 0.6866 0.6429        0.3727
+     tables 56   0.6400 0.6049 0.2937        0.2580
+handwriting 56   0.3974 0.2761 0.1190        0.0000
+       poor 56   0.2696 0.1716 0.1706        0.0727
+    rotated 56   0.0997 0.0000 0.0476        0.0000
+      mixed 48   0.0408 0.0101 0.0180        0.0000
+
+TABLE 3 — SUBSET-CONTROLLED CORRELATIONS
+
+error_metric          clinical_metric   n  ordinary_pearson_r  ordinary_pearson_p  subset_controlled_pearson_r  subset_controlled_pearson_p  subset_controlled_spearman_rho  subset_controlled_spearman_p
+         cer      number_preservation 328           -0.828466            0.000000                    -0.476961                     0.000000                       -0.491307                      0.000000
+         cer        date_preservation 297           -0.669268            0.000000                    -0.308950                     0.000000                       -0.296689                      0.000000
+         cer        unit_preservation 315           -0.670418            0.000000                    -0.332354                     0.000000                       -0.359089                      0.000000
+         cer measurement_preservation 224           -0.541652            0.000000                    -0.219748                     0.001062                       -0.260065                      0.000099
+         wer      number_preservation 328           -0.816408            0.000000                    -0.432000                     0.000000                       -0.496779                      0.000000
+         wer        date_preservation 297           -0.685409            0.000000                    -0.320657                     0.000000                       -0.306487                      0.000000
+         wer        unit_preservation 315           -0.693253            0.000000                    -0.321333                     0.000000                       -0.273335                      0.000001
+         wer measurement_preservation 224           -0.616519            0.000000                    -0.335855                     0.000000                       -0.301156                      0.000006
+
+TABLE 4 — DOWNSTREAM LLM STATISTICS
+
+              metric  n  n_nonzero_difference  gt_mean  ocr_mean  gt_median  ocr_median  mean_difference_gt_minus_ocr  median_difference_gt_minus_ocr  difference_sd  wilcoxon_statistic  wilcoxon_p_value  rank_biserial_effect_size  significant_at_0_05
+Numeric preservation 30                    17 0.081677  0.034442   0.031015    0.036376                      0.047234                        0.000000       0.131796           46.000000          0.148052                   0.398693                False
+     Lexical overlap 30                    26 0.093167  0.066129   0.060027    0.065865                      0.027038                        0.000000       0.106048          141.500000          0.387769                   0.193732                False
+  Section completion 30                    16 0.161111  0.305556   0.166667    0.166667                     -0.144444                        0.000000       0.326755           27.500000          0.031085                  -0.595588                 True
