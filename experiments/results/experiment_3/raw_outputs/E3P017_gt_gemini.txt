@@ -1,7 +1,0 @@
-Here is a patient-friendly guide to your lab report, strictly using the information provided in your results.
-
----
-
-### 1. Report Summary
-* **Patient Name:** James Peterson
-*

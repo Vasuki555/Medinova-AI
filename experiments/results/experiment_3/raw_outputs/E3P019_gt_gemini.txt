@@ -1,7 +1,0 @@
-Here is a simple, plain-language breakdown of your medical report.
-
----
-
-### 1. Report Summary
-* **Patient Name:** Cynthia M. Wright
-* **MRN:**

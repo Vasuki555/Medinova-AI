@@ -1,7 +1,0 @@
-pilot_id,subset,template,sample,fact_id,fact_category,reference_fact,gt_preservation_score,ocr_preservation_score,gt_evidence,ocr_evidence,annotation_notes
-E3P001,normal,1,2,,,,,,,,
-E3P006,handwriting,1,2,,,,,,,,
-E3P011,poor,1,2,,,,,,,,
-E3P016,rotated,1,2,,,,,,,,
-E3P021,tables,10,2,,,,,,,,
-E3P026,mixed,2,2,,,,,,,,

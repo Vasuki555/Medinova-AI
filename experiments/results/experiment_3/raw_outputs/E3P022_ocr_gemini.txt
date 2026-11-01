@@ -1,6 +1,0 @@
-Here is a breakdown of the provided medical report using only the information explicitly stated in the document.
-
----
-
-### 1. Report Summary
-* **Patient Name:** Carlos M. Rivera

@@ -37,14 +37,34 @@ backend/uploads/
 *.sqlite
 *.sqlite3
 
-# Documentation files (excluding essential ones)
-AUDIT_REPORT.md
-ALL_FEATURES_COMPLETE.md
-AUTHENTICATION_MODULE.md
-MediNova_UX_Flows.md
-phase*.py
-test_*.py
-*_audit.py
+# Documentation files - Keep only README.md
+*.md
+!README.md
+!backend/README.md
+!frontend/README.md
+
+# Test and utility scripts
+backend/phase*.py
+backend/test_*.py
+backend/*_audit.py
+backend/check_*.py
+backend/create_*.py
+backend/add_*.py
+backend/seed_*.py
+backend/verify_*.py
+backend/register_*.py
+backend/investigate_*.py
+backend/precise_*.py
+backend/final_*.py
+backend/fix_*.py
+backend/force_*.py
+backend/get_*.py
+test_*.ps1
+check_*.py
+create_*.py
+
+# Experiments directory (research files)
+experiments/
 
 # Logs
 logs/
@@ -64,3 +84,10 @@ htmlcov/
 *.dll
 *.so
 *.dylib
+
+# Sample images
+sample_*.png
+medinova_gantt*.png
+
+# Batch files
+*.bat

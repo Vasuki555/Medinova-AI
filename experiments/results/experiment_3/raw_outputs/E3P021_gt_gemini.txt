@@ -1,7 +1,0 @@
-Here is an explanation of your medical report using only the information provided in the document.
-
----
-
-### 1. Report Summary
-* **Facility:** Lakewood Hospital
-* **Patient Name:** Maria

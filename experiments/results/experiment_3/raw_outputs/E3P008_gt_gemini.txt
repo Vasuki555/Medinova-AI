@@ -1,7 +1,0 @@
-Here is a clear, patient-friendly summary of the provided pathology report.
-
----
-
-### 1. Report Summary
-* **Patient Name:** Daniel Williams
-* **Age / Gender:** 

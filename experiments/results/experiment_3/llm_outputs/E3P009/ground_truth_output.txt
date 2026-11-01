@@ -1,6 +1,0 @@
-Here is a patient-friendly summary of your medical report, using only the information provided in your document.
-
----
-
-### 1. Report Summary
-* **Patient Name:** Cynthia M. Wright

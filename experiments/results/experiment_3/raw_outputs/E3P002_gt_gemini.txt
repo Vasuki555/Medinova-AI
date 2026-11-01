@@ -1,7 +1,0 @@
-Here is a clear, patient-friendly summary of your medical report based strictly on the provided text.
-
----
-
-### 1. Report Summary
-* **Patient Name:** James Peterson
-* **Date of Birth:**

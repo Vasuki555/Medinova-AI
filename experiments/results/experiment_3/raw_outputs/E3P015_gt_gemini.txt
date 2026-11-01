@@ -1,3 +1,0 @@
-"Acute Left Knee Pain": Sudden onset of pain in the left knee.
-        *   "Left Knee Effusion": Fluid buildup or swelling in the left knee joint.
-        
