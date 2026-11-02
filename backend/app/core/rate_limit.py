@@ -85,17 +85,18 @@ def rate_limit_exceeded_handler(request: Request, exc: RateLimitExceeded) -> JSO
 def _validate_redis_in_production():
     """
     Validate Redis configuration in production.
-    Fails fast if Redis is not properly configured.
+    Warns if memory-based rate limiting is used in production (allows free tier deployment).
     """
     if settings.is_production:
         redis_url = settings.REDIS_URL
         
-        # Check if Redis URL is properly configured
+        # Warn if Redis URL is not properly configured (but allow deployment for free tier)
         if not redis_url or redis_url == "memory://":
-            raise RuntimeError(
-                "CRITICAL: Production environment requires Redis for rate limiting. "
-                "Set REDIS_URL in environment variables (e.g., redis://localhost:6379). "
-                "Memory-based rate limiting is not suitable for production with multiple workers."
+            logger.warning(
+                "WARNING: Using memory-based rate limiting in production. "
+                "This is suitable for single-instance deployments (like Render free tier) "
+                "but not recommended for multi-worker production environments. "
+                "Consider using Redis for better rate limiting: Set REDIS_URL environment variable."
             )
         
         if not redis_url.startswith("redis://") and not redis_url.startswith("rediss://"):
